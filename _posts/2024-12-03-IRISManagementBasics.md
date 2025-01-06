@@ -9,32 +9,32 @@ InterSystems IRIS® データプラットフォームの基礎と、システム
 
 このコースを修了すると、通常の操作やトラブルシューティングにインターシステムズのドキュメントを読めばわかる程度の知識が身に付きます。
 
-[1. <img src="./assets/icons/1.png" width="40%"/> ](#1-)
+[1. <img src="../assets/icons/1.png" width="40%"/> ](#1-)
 
-[2. <img src="./assets/icons/2.png" width="40%"/> ](#2-)
+[2. <img src="../assets/icons/2.png" width="40%"/> ](#2-)
 
-[3. <img src="/assets/icons/3.png" width="40%"/> ](#3)
+[3. <img src="../assets/icons/3.png" width="40%"/> ](#3-)
 
-[4. <img src="/assets/icons/4.png" width="40%"/> ](#4)
+[4. <img src="../assets/icons/4.png" width="40%"/> ](#4-)
 
-[5. <img src="/assets/icons/5.png" width="40%"/> ](#5)
+[5. <img src="../assets/icons/5.png" width="40%"/> ](#5-)
 
-[6. <img src="/assets/icons/6.png" width="40%"/> ](#6)
+[6. <img src="../assets/icons/6.png" width="40%"/> ](#6-)
 
-[7. <img src="/assets/icons/7.png" width="40%"/> ](#7)
+[7. <img src="../assets/icons/7.png" width="40%"/> ](#7-)
 
-[8. <img src="/assets/icons/8.png" width="40%"/> ](#8)
+[8. <img src="../assets/icons/8.png" width="40%"/> ](#8-)
 
-[9. <img src="/assets/icons/9.png" width="40%"/> ](#9)
+[9. <img src="../assets/icons/9.png" width="40%"/> ](#9-)
 
-[10. <img src="/assets/icons/10.png" width="40%"/> ](#10)
+[10. <img src="../assets/icons/10.png" width="40%"/> ](#10-)
 
-[11. <img src="/assets/icons/11.png" width="40%"/> ](#11)
+[11. <img src="../assets/icons/11.png" width="40%"/> ](#11-)
 
 [12. 次は？](#12-次は)
 
 ---
-## 1. <img src="/assets/icons/1.png" width="70%"/>
+## 1. <img src="../assets/icons/1.png" width="70%"/>
 
 はじめに、InterSystems IRIS概要と、その基盤となる基本アーキテクチャについてご紹介します。
 
