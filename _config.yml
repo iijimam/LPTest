@@ -1,4 +1,4 @@
-repository: iijimam/LearningPath-Test
+repository: iijimam/LPTest
 remote_theme: sighingnow/jekyll-gitbook
 toc:
     enabled: true
@@ -10,4 +10,4 @@ collections:
     nav_fold: true
     name: SysMgt
 
-favicon_path: ../assets/icons/favicon.ico
+favicon_path: ./assets/icons/favicon.ico

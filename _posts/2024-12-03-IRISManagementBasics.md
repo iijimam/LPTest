@@ -13,28 +13,28 @@ InterSystems IRIS® データプラットフォームの基礎と、システム
 
 [2. <img src="./assets/icons/2.png" width="40%"/> ](#2-)
 
-[3. <img src="../assets/icons/3.png" width="40%"/> ](#3-)
+[3. <img src="./assets/icons/3.png" width="40%"/> ](#3-)
 
-[4. <img src="../assets/icons/4.png" width="40%"/> ](#4-)
+[4. <img src="./assets/icons/4.png" width="40%"/> ](#4-)
 
-[5. <img src="../assets/icons/5.png" width="40%"/> ](#5-)
+[5. <img src="./assets/icons/5.png" width="40%"/> ](#5-)
 
-[6. <img src="../assets/icons/6.png" width="40%"/> ](#6-)
+[6. <img src="./assets/icons/6.png" width="40%"/> ](#6-)
 
-[7. <img src="../assets/icons/7.png" width="40%"/> ](#7-)
+[7. <img src="./assets/icons/7.png" width="40%"/> ](#7-)
 
-[8. <img src="../assets/icons/8.png" width="40%"/> ](#8-)
+[8. <img src="./assets/icons/8.png" width="40%"/> ](#8-)
 
-[9. <img src="../assets/icons/9.png" width="40%"/> ](#9-)
+[9. <img src="./assets/icons/9.png" width="40%"/> ](#9-)
 
-[10. <img src="../assets/icons/10.png" width="40%"/> ](#10-)
+[10. <img src="./assets/icons/10.png" width="40%"/> ](#10-)
 
-[11. <img src="../assets/icons/11.png" width="40%"/> ](#11-)
+[11. <img src="./assets/icons/11.png" width="40%"/> ](#11-)
 
 [12. 次は？](#12-次は)
 
 ---
-## 1. <img src="../assets/icons/1.png" width="70%"/>
+## 1. <img src="./assets/icons/1.png" width="70%"/>
 
 はじめに、InterSystems IRIS概要と、その基盤となる基本アーキテクチャについてご紹介します。
 
@@ -88,7 +88,7 @@ InterSystems IRIS® データプラットフォームの基礎と、システム
 {: .block-tip}
 
 ---
-## 2. <img src="/assets/icons/2.png" width="70%"/>
+## 2. <img src="./assets/icons/2.png" width="70%"/>
 
 InterSystems IRIS では、製品をインストールする場所を選択できます。InterSystems IRIS のインストール、インスタンスの起動と停止、基本設定、およびアプリケーションに必要な場合は Web サーバのインストール方法について説明します。
 
@@ -139,7 +139,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 - [ドキュメント：ライセンス・キーの有効化](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GSA_license_update_key)
 
 ---
-## 3. <img src="/assets/icons/3.png" width="70%"/>
+## 3. <img src="./assets/icons/3.png" width="70%"/>
 最初に、ネームスペースとデータベースを作成し、基礎となるデータ構造とどのような関係があるかを学習します。次に、構成パラメータ・ファイル（CPF）、メモリ、およびアラートの構成を学習します。
 
 ### システム
@@ -188,7 +188,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 - [ドキュメント：ローカルデータベースの管理](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GSA_manage_databases)
 
 ---
-## 4. <img src="/assets/icons/4.png" width="70%"/>
+## 4. <img src="./assets/icons/4.png" width="70%"/>
 セキュリティの構成と管理に役立つ製品内のツールと認証オプションを使用して、ユーザーとロールを設定します。
 
 ### 概要
@@ -225,7 +225,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
     対象：「2要素認証」
 
 ---
-## 5. <img src="/assets/icons/5.png" width="70%"/>
+## 5. <img src="./assets/icons/5.png" width="70%"/>
 システムの健全性を監視し、潜在的な問題を早期に発見する方法を学びます。
 
 - [ドキュメント：システム監視ツール](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GCM_monitor#GCM_monitor_tools)
@@ -242,7 +242,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 
 
 ---
-## 6. <img src="/assets/icons/6.png" width="70%"/>
+## 6. <img src="./assets/icons/6.png" width="70%"/>
 プロセス、ロック、ジャーナリングの管理について学習します。
 
 - [ドキュメント：プロセス管理](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GSTU_process)
@@ -292,7 +292,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
     - [IRISジャーナル（z圧縮済み）をCachéにリストアする方法](https://jp.community.intersystems.com/node/542656)
 
 ---
-## 7. <img src="/assets/icons/7.png" width="70%"/>
+## 7. <img src="./assets/icons/7.png" width="70%"/>
 パフォーマンス・メトリクスを確認し、SQL クエリを特定して最適化します。次に、Enterprise Cache Protocol (ECP) がどのようにスケーラビリティを向上させるかを確認します。
 
 ### SQLパフォーマンスの最適化
@@ -315,7 +315,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 - [記事：データプラットフォームとパフォーマンス-パート7 パフォーマンス、スケーラビリティ、可用性のためのECP](https://jp.community.intersystems.com/node/476811)
 
 ---
-## 8. <img src="/assets/icons/8.png" width="70%"/>
+## 8. <img src="./assets/icons/8.png" width="70%"/>
 ミラーリング、定期的なバックアップ、ジャーナリングによる高可用性の実装方法を学びます。
 
 ### バックアップとリストア（シリーズ記事）
@@ -364,7 +364,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 
 
 ---
-## 9. <img src="/assets/icons/9.png" width="70%"/>
+## 9. <img src="./assets/icons/9.png" width="70%"/>
 アップグレード・ガイドおよびリリース・ノートを使用して、InterSystems IRIS をアップグレードします。
 
 - [ドキュメント：アップグレードの概要](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=GCI_overview)    
@@ -374,7 +374,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 - [最新リリースノート(英語)](https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=PAGE_release)
 
 ---
-## 10. <img src="/assets/icons/10.png" width="70%"/>
+## 10. <img src="./assets/icons/10.png" width="70%"/>
 
 エラーの早期発見や問題の迅速なトラブルシューティングに役立つ多くのツールについてご紹介します。
 ### アプリケーションエラーログ
@@ -426,7 +426,7 @@ InterSystems IRIS コンテナ・イメージからコンテナを開始する�
 
 
 ---
-## 11. <img src="/assets/icons/11.png" width="70%"/>
+## 11. <img src="./assets/icons/11.png" width="70%"/>
 あなたのスキルを総動員して、基本的なシステム管理作業を実際にやってみましょう。
 
 - [演習環境（英語ページ）:Performing Common InterSystems IRIS Management Tasks](https://learning.intersystems.com/enrol/index.php?id=1945)
