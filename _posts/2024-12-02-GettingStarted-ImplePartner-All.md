@@ -55,7 +55,7 @@ InterSystems IRIS®データ・プラットフォームは、信頼性の高い�
 
     {% include youtube.html id="v4uoejre5IU" %}
 
-
+---
 ## <img src="./assets/icons/serversideapp-better-dicision.png" width="10%"/>2. サーバーサイドアプリケーションの構築
 
 InterSystems 製品の組み込み言語である InterSystems ObjectScript を使用して、新しいクラスの作成、オブジェクトの操作、SQL クエリの実行について学習します。
@@ -144,7 +144,7 @@ InterSystems 製品の組み込み言語である InterSystems ObjectScript を�
 ※英語のみ：[Exam: InterSystems IRIS Core Solutions Developer Specialist](https://www.intersystems.com/education/)
 
 
-
+---
 ## <img src="./assets/icons/integration.png" width="10%"/>3. 他のシステムとの統合
 
 インターシステムズ製品のInteroperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し、下流のアプリケーションにメッセージを迅速にルーティングすることができます。
@@ -198,6 +198,7 @@ InterSystems 製品の組み込み言語である InterSystems ObjectScript を�
 >    >メモ：変換データとしてHL7を使用しています。
 {: .block-tip}
 
+---
 ## <img src="./assets/icons/custom.png" width="10%"/>4. カスタムコンポーネントを使用したシステム統合の開発
 FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネスコンポーネントが開発者に提供されています。
 
@@ -237,7 +238,7 @@ FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネ�
 >    Production EXtension フレームワーク (PEX) を使用すると、ObjectScript を学習することなく、.NET または Java でカスタム相互運用性コンポーネントを構築できます。PEX を使用すると、使い慣れた言語でコーディングし、確立されたコードライブラリを活用して、プロダクションにコンポーネントを追加できます。PEX を使用してプロダクションを構築する方法については、オンラインコース（英語）[「Creating Interoperability Productions Using PEX」（1 時間）](https://learning.intersystems.com/course/view.php?name=PEXInteroperabilityProductions)を受講してください。
 {: .block-tip}
 
-
+---
 ## <img src="./assets/icons/access-multilanguage.png" width="10%"/>5. 他言語を使用したデータアクセス
 
 InterSystems IRIS は、各種言語からアクセスすることができます。よくある使い方としては、他DBと同様にSQLベースでアクセスする方法があげられます。
@@ -362,7 +363,7 @@ InterSystems Python SDK を使用して、Python から InterSystems IRIS クラ
 
 - [ビデオ（英語）：Evaluating Python Development Strategies](https://learning.intersystems.com/course/view.php?id=2063)
 
-
+---
 ## <img src="./assets/icons/APIManagement.png" width="10%"/>6. APIの管理
 
 ### 1. InterSystems API Managerとは
@@ -387,7 +388,7 @@ InterSystems API Manager を使用して、InterSystems IRIS® データ・プ�
 
 ✅参考記事：[ゼロから使いこなす IAM（InterSystems API Manager）](https://jp.community.intersystems.com/node/493416)
 
-
+---
 ## <img src="./assets/icons/Analytics.png" width="10%"/>7. データ分析
 InterSystems IRISに組み込まれたInterSystems IRIS Business Intelligenceは、ほぼリアルタイムの分析を提供します。このデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。レポート作成に関するリソースは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reportsでデータを視覚的に提供する)のセクションを参照してください。
 
@@ -503,7 +504,7 @@ InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用
 
 - [オンラインコース（英語）：InterSystems IRIS Adaptive Analytics Essential](https://learning.intersystems.com/course/view.php?name=AdaptiveAnalyticsEssentials)
 
-
+---
 ## <img src="./assets/icons/performance.png" width="10%"/>8. パフォーマンスとスピードの最適化
 
 アプリケーションのパフォーマンスを必要なだけ確保するためには、高性能なインジェストツールでシステムを構成するだけでなく、大量かつ高速なインジェストのためにシャーディングを設定し、フェイルオーバーのためにミラーリングを設定する必要があります。このセクションでは、これらの推奨事項の多くについて説明する。
