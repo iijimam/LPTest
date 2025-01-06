@@ -1,0 +1,13 @@
+repository: iijimam/LearningPath-Test
+remote_theme: sighingnow/jekyll-gitbook
+toc:
+    enabled: true
+syntax_highlighter_style: colorful
+
+collections:
+  sysmgt:
+    output: true
+    nav_fold: true
+    name: SysMgt
+
+favicon_path: ../assets/icons/favicon.ico
