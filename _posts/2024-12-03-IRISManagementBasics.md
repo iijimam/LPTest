@@ -9,9 +9,9 @@ InterSystems IRIS® データプラットフォームの基礎と、システム
 
 このコースを修了すると、通常の操作やトラブルシューティングにインターシステムズのドキュメントを読めばわかる程度の知識が身に付きます。
 
-[1. <img src="../assets/icons/1.png" width="40%"/> ](#1-)
+[1. <img src="./assets/icons/1.png" width="40%"/> ](#1-)
 
-[2. <img src="../assets/icons/2.png" width="40%"/> ](#2-)
+[2. <img src="./assets/icons/2.png" width="40%"/> ](#2-)
 
 [3. <img src="../assets/icons/3.png" width="40%"/> ](#3-)
 
