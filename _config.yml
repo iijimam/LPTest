@@ -11,7 +11,7 @@ collections:
   developers:
     output: true
     permalink: /:collection/:path/
-  sysmgts:
+  administrators:
     output: true
     permalink: /:collection/:path/
   others:
@@ -22,7 +22,7 @@ collections:
 ordered_collections:
   - posts
   - developers
-  - sysmgts
+  - administrators
   - others
 
 favicon_path: ./assets/icons/favicon.ico
