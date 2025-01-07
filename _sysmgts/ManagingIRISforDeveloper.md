@@ -2,6 +2,7 @@
 title: 開発者向け InterSystems IRIS の管理
 date: 2024-12-04
 permalink: ManagingIRISforDeveloper.html
+layout: post
 ---
 InterSystems IRIS® データプラットフォームとその他のインターシステムズ製品の管理の基本について、ハイレベルな概要を学びます。
 

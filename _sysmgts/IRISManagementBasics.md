@@ -2,6 +2,7 @@
 title: InterSysetms IRIS 管理の基本
 date: 2024-12-03
 permalink: IRISManagementBasics.html
+layout: post
 ---
 
 InterSystems IRIS® データプラットフォームの基礎と、システム管理者が製品のライフサイクルを通じて一般的なタスクを実行するのに役立つツールをご紹介します。

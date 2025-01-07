@@ -1,7 +1,8 @@
 ---
-title: インプリメンテーションパートナ向けInterSystems製品をはじめよう！
+title: InterSystems製品をはじめてみよう！～パートナー向け～
 date: 2024-12-02
 permalink: /GettingStarted-ImplePartner-All.html
+layout: post
 ---
 
 InterSystems IRIS® データプラットフォームを利用して開発するアプリケーションに必要となるコードの記述、インテグレーションの構築、コンポーネントの作成方法、また利用可能なツールについて学習します。

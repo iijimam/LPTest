@@ -2,6 +2,7 @@
 title: VS Codeを使用したInterSystemsサーバサイドの開発
 date: 2024-12-05
 permalink: VSCode.html
+layout: post
 ---
 VS Code を使用した InterSystems® 製品の開発方法をご紹介します。
 

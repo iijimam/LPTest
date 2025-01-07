@@ -5,9 +5,24 @@ toc:
 syntax_highlighter_style: colorful
 
 collections:
-  sysmgt:
+  pages:
     output: true
-    nav_fold: true
-    name: SysMgt
+    permalink: /:collection/:path/
+  developers:
+    output: true
+    permalink: /:collection/:path/
+  sysmgts:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+
+
+ordered_collections:
+  - posts
+  - developers
+  - sysmgts
+  - others
 
 favicon_path: ./assets/icons/favicon.ico
