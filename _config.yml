@@ -7,12 +7,15 @@ syntax_highlighter_style: colorful
 collections:
   pages:
     output: true
+    label: ようこそ
     permalink: /:collection/:path/
   developers:
     output: true
+    label: 開発者向け
     permalink: /:collection/:path/
   administrators:
     output: true
+    label: 管理者向け
     permalink: /:collection/:path/
   others:
     output: true

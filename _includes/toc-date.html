@@ -48,7 +48,20 @@
                     {% assign collection = site.collections | where: "label", label | first %}
                     <!-- <p>{{ collection.label }}</p> -->
                     {% if collection.output %}
+                        <!-- original 
                         <li class="collection-header">{{ collection.label }}</li>
+                        -->
+                        <!-- 追加-->
+                        {% if collection.label=="posts" %}
+                            <li class="collection-header">ようこそ！</li>
+                        {% elsif collection.label=="developers" %}
+                            <li class="collection-header">開発者系</li>
+                        {% elsif collection.label=="administrators" %}
+                            <li class="collection-header">管理者系</li>
+                        {% else %}
+                            <li class="collection-header">{{ collection.label }}</li>
+                        {% endif %}
+
                         {% if collection.label == "posts" %}
                             {% assign reversed_posts = site[collection.label] | reverse %}
                         {% else %}
@@ -85,7 +98,7 @@
                         {% if collection.label == "posts" %}
                             {% assign reversed_posts = site[collection.label] | reverse %}
                         {% else %}
-                            {% assign reversed_posts = site[collection.label] %}
+                            {% assign reversed_posts = site[collection.label] %}                     
                         {% endif %}
 
                         {% for post in reversed_posts %}
