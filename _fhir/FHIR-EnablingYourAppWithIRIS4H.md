@@ -1,4 +1,10 @@
-# FHIR - InterSystems IRIS for Healthでアプリケーションを有効にする
+---
+title: FHIR - InterSystems IRIS for Healthでアプリケーションを有効にする
+date: 2024-12-02
+permalink: FHIR-EnablingYourAppWithIRIS4H.html
+layout: post
+---
+
 > オリジナル[FHIR-Enabling Your Applications with InterSystems IRIS for Health](https://learning.intersystems.com/course/view.php?id=2323)
 
 InterSystems IRIS for Health™ を使用して、FHIR Facade を作成し、ヘルスケア・アプリケーションが HL7® FHIR® フォーマットでデータを送受信できるようにすることができます。このラーニングパスでは、以下の方法を学習できます。

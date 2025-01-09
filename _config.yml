@@ -7,11 +7,15 @@ syntax_highlighter_style: colorful
 collections:
   pages:
     output: true
-    label: ようこそ
+    label: Getting Started!
     permalink: /:collection/:path/
   developers:
     output: true
     label: 開発者向け
+    permalink: /:collection/:path/
+  fhir:
+    output: true
+    label: FHIR
     permalink: /:collection/:path/
   administrators:
     output: true
@@ -25,6 +29,7 @@ collections:
 ordered_collections:
   - posts
   - developers
+  - fhir
   - administrators
   - others
 

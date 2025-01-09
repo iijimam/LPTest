@@ -53,14 +53,17 @@
                         -->
                         <!-- 追加-->
                         {% if collection.label=="posts" %}
-                            <li class="collection-header">ようこそ！</li>
+                            <li class="collection-header">🚶Getting Started🚶</li>
                         {% elsif collection.label=="developers" %}
                             <li class="collection-header">開発者系</li>
+                        {% elsif collection.label=="fhir" %}
+                            <li class="collection-header">HL7 FHIR🔥</li>
                         {% elsif collection.label=="administrators" %}
                             <li class="collection-header">管理者系</li>
                         {% else %}
                             <li class="collection-header">{{ collection.label }}</li>
                         {% endif %}
+                        <!-- 追加ここまで-->
 
                         {% if collection.label == "posts" %}
                             {% assign reversed_posts = site[collection.label] | reverse %}
