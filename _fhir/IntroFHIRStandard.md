@@ -7,7 +7,11 @@ layout: post
 
 > オリジナルページ：[Introduction to the FHIR Standard](https://learning.intersystems.com/course/view.php?id=2401)
 
-HL7® FHIR® を世界をリードするヘルスケアデータ標準にしている多くの特徴と機能について学びます。このラーニング・パスでは、FHIR 標準がどのように機能し、最新のヘルスケアアプリケーションでどのように使用されるかを学びます。FHIR データモデルの実習を行い、FHIR データ標準についてよくある質問にお答えします。
+HL7® FHIR® を世界をリードするヘルスケアデータ標準にしている多くの特徴と機能について学びます。
+
+このラーニング・パスでは、FHIR 標準がどのように機能し、最新のヘルスケアアプリケーションでどのように使用されるかをビデオを利用して学習します。
+
+最後に、FHIR データモデルの実習を行った後、FHIRについてよくある質問についてもお答えします。
 
 
 [1. <img src="./assets/icons/FHIR/Intro1.png" width="40%"/>](#1-)
@@ -46,17 +50,14 @@ HL7® FHIR® ヘルスケアデータ標準の概要と、ウェブサイトの�
 
 また、FHIRの目標、データの保存と共有方法の基本、仕様内のさまざまなFHIRリソース間の関係について学習します。
 
-> 以下のビデオ、塩川さんの2022年のモダホビデオがいいか、ISJビデオがいいか
-
 - FHIRとは何か、現在、そして今後
+
+    このビデオは、国際モダンホスピタルショウ2022 インタ―システムズブースのミニシアターで開催された　一般社団法人 日本IHE協会　理事　接続検証委員長　塩川 康成 様　によるご講演ビデオです。
+
+   >国際モダンホスピタルショウ　インタ―システムズブースのミニシアターでのご講演内容全般については、[InterSystems Japan YouTubeチャンネル](https://www.youtube.com/@InterSystemsJapan/playlists)にて公開しております。
 
     {% include youtube-list.html id="_Qgv9WqrN6k" list="PLgFt3CvX3OePAiRdrL8GmMzKNiCG_BJqP" %}
 
-- FHIR+IRIS for Health 101
-
-- [ビデオ（日本語）：FHIR+IRIS for Health 101](https://www.youtube.com/watch?v=S7PV3RIpMUM&list=PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=2)
-
-    {% include youtube-list.html id="S7PV3RIpMUM" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=2" %}
 
 > **英語ビデオもあります**
 >
