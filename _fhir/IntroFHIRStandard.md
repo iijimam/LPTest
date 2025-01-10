@@ -72,27 +72,35 @@ HL7® FHIR® ヘルスケアデータ標準の概要と、ウェブサイトの�
 
 - ビデオ（英語）：Understanding the Structure of HL7 FHIR Resources
 
-    HL7® FHIR® リソースの構造を紹介します。[FHIR ウェブサイト](https://hl7.org/fhir/R4/)のリソースのツリー表示の見方と読み方を確認できます。これにより、リソースに含まれるさまざまなデータ要素を理解することができます。また、リソースを XML、JSON、または Turtle で表示する方法や、FHIR リソースの UML (Universal Modeling Language) ダイアグラムの場所についても説明します。
+    HL7® FHIR® リソースの構造を紹介します。
+    
+    [FHIR ウェブサイト](https://hl7.org/fhir/R4/)のリソースのツリー表示の見方と読み方を確認し、リソースに含まれる様々なデータ要素を理解します。
+    
+    また、リソースを XML、JSON、または Turtle で表示する方法や、FHIR リソースの UML (Universal Modeling Language) ダイアグラムの場所についても説明します。
 
     {% include youtube-list.html id="BmgAhxWQtZw" list="PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF" %}
 
 
 - ビデオ（英語）：Identifying Structured and Coded Data in HL7 FHIR Resources
 
-    HL7® FHIR® で使用され、データセットの表現に一貫性を持たせる、構造化データとコード化データの識別方法を学習できます。FHIR で使用されるデータ型と、用語バインディングが要素定義をデータ型と値セットにどのように結びつけるかを確認できます。FHIRリソースの一部として定義されたコードや、LOINCやSNOMEDのような外部の用語体系から引き出されたコードの例をご覧ください。
+    HL7® FHIR® で使用され、データセットの表現に一貫性を持たせる、構造化データとコード化データの識別方法を学習できます。
+    
+    FHIR で使用されるデータ型と、用語バインディングが要素定義をデータ型と値セットにどのように結びつけるかを確認できます。
+    
+    また、FHIRリソースの一部として定義されたコードや、LOINCやSNOMEDのような外部の用語体系から引き出されたコードの例をご覧ください。
 
     {% include youtube-list.html id="D8QafQ6-yZw" list="PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF" %}
 
 ---
 ## 4. <img src="./assets/icons/FHIR/Intro4.png" width="70%"/>
 
-FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し、FHIRデータアーキテクチャを演習してみます。
+FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し、FHIRデータアーキテクチャを理解します。
 
-《相談》全て英語なので日本語字幕を付けたらいいのか。他で代用できるものがあるのか。
+>全て英語。日本語字幕を付けたらいいのか。他で代用できるものがあるのか。
 
 - FHIRプロファイルについて
 
-    {% include youtube-list.html id="B-B6ge_0nHg" list="PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF&index=8" %}
+    {% include youtube-list.html id="B-B6ge_0nHg" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=8" %}
 
 > **英語ビデオあります**
 >
@@ -101,7 +109,7 @@ FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し�
 
 - FHIR実装ガイドについて（英語ビデオ）
 
-    {% include youtube-list.html id="AfoXYVgzE9U" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu" %}
+    {% include youtube-list.html id="AfoXYVgzE9U" list="PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF" %}
 
 - FHIR Shorthandについて
 
@@ -109,9 +117,9 @@ FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し�
     
     FHIR Shorthand は、プロファイル、エクステンション、およびその他の FHIR アーティファクトを定義するための、ドメイン固有の人間が読める言語です。
 
-    - [SUSHIを使ってFHIRプロファイルを作成しようパート1](https://jp.community.intersystems.com/node/493351)
+    - 記事：[SUSHIを使ってFHIRプロファイルを作成しようパート1](https://jp.community.intersystems.com/node/493351)
 
-    - [SUSHIを使ってFHIRプロファイルを作成しようパート2](https://jp.community.intersystems.com/node/506271)
+    - 記事：[SUSHIを使ってFHIRプロファイルを作成しようパート2](https://jp.community.intersystems.com/node/506271)
 
 
 > **英語ビデオあります**
@@ -121,14 +129,16 @@ FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し�
 
 - [演習環境付き演習（英語）のオンラインコース：Building a FHIR Data Architecture](https://learning.intersystems.com/course/view.php?id=2279)
 
-    HL7® FHIR® アーキテクチャとその基礎となるデータモデルの基礎を学びます。この演習では、InterSystems がサポートする Graph Builder 2 (GB2) アプリを使用して、FHIR を使用した開発の基礎となる FHIR データアーキテクチャの構築を開始します。
+    HL7® FHIR® アーキテクチャとその基礎となるデータモデルの基礎を学びます。
+    
+    この演習では、InterSystems がサポートする Graph Builder 2 (GB2) アプリを使用して、FHIR を使用した開発の基礎となる FHIR データアーキテクチャの構築を開始します。
 
 ---
 
 ## 5. <img src="./assets/icons/FHIR/Intro5.png" width="70%"/>
 医療システム間のセマンティック相互運用性について学び、FHIR分野で最もよくある質問を確認します。
 
-- （ビデオ：英語）Achieving True Interoperability in Healthcare Systems](https://learning.intersystems.com/course/view.php?id=2203) 
+- （ビデオ：英語）[Achieving True Interoperability in Healthcare Systems](https://learning.intersystems.com/course/view.php?id=2203) 
     
     セマンティック相互運用性の概念と、医療データ交換におけるその役割についてご紹介します。
     
@@ -141,6 +151,6 @@ FHIRプロファイルと実装ガイド、FHIR shorthand を詳しく確認し�
 
 - （ビデオ：英語）FHIR FAQs
 
-    InterSystems のSenior Clinical Interoperability Advisor である Russ Leftwich が HL7® FHIR® に関してよくあるFAQを紹介します。
+    InterSystems のSenior Clinical Interoperability Advisor である Russ Leftwich が HL7® FHIR® に関してよくある質問に回答します。
 
     {% include youtube-list.html id="tH2sWhVa8MU" list="PLp4xNHWZ7IQkqH6bHsYVFkh1tX0P1_2VF&index=10" %} 
