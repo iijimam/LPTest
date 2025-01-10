@@ -7,7 +7,7 @@ layout: post
 
 >オリジナル：[Getting Started with InterSystems ObjectScript](https://learning.intersystems.com/course/view.php?id=289)
 
-InterSystems ObjectScript の基本的な構文を学び、このプログラミング言語の主要な要素について紹介します。
+InterSystems ObjectScript の基本的な構文と主要な要素について学習します。
 
 [1. <img src="./assets/icons/O1.png" width="40%"/>](#1-)
 
@@ -59,11 +59,9 @@ ObjectScript 概要、変数、式、コマンドなど、主な機能のいく�
 
 - [ObjectScriptクックブック：演算子](https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/CookBook.md#%E6%BC%94%E7%AE%97%E5%AD%90)
 
-- 関数操作
+- 関数操作：[ObjectScriptクックブック：文字列操作](https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/CookBook.md#%E6%96%87%E5%AD%97%E5%88%97%E6%93%8D%E4%BD%9C)
 
-    [ObjectScriptクックブック：文字列操作](https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/CookBook.md#%E6%96%87%E5%AD%97%E5%88%97%E6%93%8D%E4%BD%9C)
-
-    （文字列の操作に便利な関数の説明が含まれています。）
+    文字列の操作に便利な関数の説明が含まれています。
 
 > **関数について、英語ビデオもあります**
 >
@@ -85,7 +83,7 @@ ObjectScript 概要、変数、式、コマンドなど、主な機能のいく�
 ---
 ## 3. <img src="./assets/icons/O3.png" width="70%"/>
 
-ObjectScript でよく使用されるデータ型や、さまざまな特殊変数とその使用方法を確認します。
+ObjectScript の変数の特徴を理解します。またObjectScriptが提供する特殊変数とその使用方法についても学習します。
 
 - 変数について
 
@@ -122,7 +120,7 @@ ObjectScript でよく使用されるデータ型や、さまざまな特殊変�
 
 ---
 ## 4. <img src="./assets/icons/O4.png" width="70%"/>
-ObjectScript の基本を学んだところで、Visual Studio Code を利用してクラス定義を作成します。
+ObjectScript の基本を学習できましたので、Visual Studio Code を利用してクラス定義を作成します。
 
 以下のビデオでは、クラス定義の作成からインスタンス生成、保存までの流れを確認できます。
 
@@ -133,3 +131,4 @@ ObjectScript の基本を学んだところで、Visual Studio Code を利用し
 >- [オンラインコース（英語）:Creating an InterSystems Class Definition in VS Code](https://learning.intersystems.com/course/view.php?name=IRIS%20Class)
 {: .block-tip}
 
+VSCode用ラーニングパスもあります。[VS Codeを使用したInterSystemsサーバサイドの開発](/VSCode.html)をご参照ください。
