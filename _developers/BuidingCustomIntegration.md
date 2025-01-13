@@ -9,7 +9,7 @@ layout: post
 
 InterSystems ObjectScript でInteroperability（相互運用性機能）のカスタムコンポーネントを作成し、InterSystems IRIS® データプラットフォーム製品に追加する方法を学習します。
 
-このパスは、プロダクション用のカスタムビジネスサービス、プロセス、およびオペレーションを開発する必要のあるソフトウェア開発者向けに設計されています。
+このパスは、プロダクションで使用するカスタムビジネスサービス、プロセス、およびオペレーションを開発するソフトウェア開発者向けに設計されています。
 
 また、InterSystems ObjectScript の使用経験があることを前提としています。必要に応じて、[ObjectScript ラーニング・パス](/ObjectScript.html) をご覧ください。
 
@@ -22,7 +22,7 @@ InterSystems ObjectScript でInteroperability（相互運用性機能）のカ�
 ---
 ## 1. <img src="./assets/icons/InteropC1.png" width="70%"/>
 
-Interoperability のカスタムコンポーネントを利用した開発の体験を行います。
+最初に、Interoperability のカスタムコンポーネントを利用した開発を体験してみましょう。
 
 - [チュートリアル：InterSystems Interoperability（相互運用性）チュートリアル](https://play.instruqt.com/embed/intersystems/tracks/interop-jp?token=em_nMyn9Z_6s9Tq3KTv)
 
@@ -50,7 +50,7 @@ Interoperability 概要について確認される場合は、以下のビデオ
 ---
 ## 2. <img src="./assets/icons/InteropC2.png" width="70%"/>
 
-プロダクション内のカスタム・コンポーネント間で送信されるプロダクション・メッセージの構築方法を確認します。
+続いて、プロダクション内のカスタム・コンポーネント間で使用するメッセージの構築方法を確認します。
 
 - [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：メッセージ](https://jp.community.intersystems.com/node/483131)
 
@@ -62,7 +62,7 @@ Interoperability 概要について確認される場合は、以下のビデオ
 ---
 ## 3. <img src="./assets/icons/InteropC3.png" width="70%"/>
 
-プロダクション向けのカスタム・ビジネス・オペレーション、ビジネス・プロセス、ビジネス・サービスを設計、構築する方法を学びます。
+プロダクション向けのカスタム・ビジネス・オペレーション、ビジネス・プロセス、ビジネス・サービスを設計、構築する方法を学習します。
 
 
 - [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・オペレーション）](https://jp.community.intersystems.com/node/483136)
@@ -80,7 +80,7 @@ Interoperability 概要について確認される場合は、以下のビデオ
 
 
 
-> **英語の以下オンラインコースがあります**
+> **英語のオンラインコースもあります**
 >
 >- [オンラインコース（英語）：Building Custom Business Operations (1h 30m)](https://learning.intersystems.com/enrol/index.php?id=2029)
 >
