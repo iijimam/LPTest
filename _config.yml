@@ -32,9 +32,6 @@ collections:
     output: true
     label: 管理者向け
     permalink: /:collection/:path/
-  others:
-    output: true
-    permalink: /:collection/:path/
 
 
 ordered_collections:
@@ -45,6 +42,5 @@ ordered_collections:
   - analytics
   - containers
   - administrators
-  - others
 
 favicon_path: ./assets/icons/favicon.ico
