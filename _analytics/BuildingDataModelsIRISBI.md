@@ -14,7 +14,6 @@ InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリ
 このパスの自習用教材と講師付きトレーニングでの学習を組み合わせて、モデルの作成方法を学習できます。
 
 ---
-<<<<<<< HEAD
 [1. <img src="./assets/icons/BI-Model1.png" width="40%"/>](#1-)
 
 [2. <img src="./assets/icons/BI-Model2.png" width="40%"/>](#2-)
@@ -23,16 +22,7 @@ InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリ
 
 ---
 ## 1. <img src="./assets/icons/BI-Model1.png" width="70%"/>
-=======
-[1. <img src="./assets/icons/BIModel1.png" width="40%"/>](#1-)
 
-[2. <img src="./assets/icons/BIModel2.png" width="40%"/>](#2-)
-
-[3. <img src="./assets/icons/BIModel3.png" width="40%"/>](#3-)
-
----
-## 1. <img src="./assets/icons/BIModel1.png" width="70%"/>
->>>>>>> 27ed5f13ff0e14f3ced0212cabf1a706ac66ad8a
 キューブの基本を習得し、キューブ用クエリ（MDX）と従来の SQL クエリの違いを理解します。
 
 - ビデオ：InterSystems IRIS Business Intelligence 概要
@@ -43,21 +33,13 @@ InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリ
 
 {% include youtube-list.html id="xV9Aa31zxhI" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %} 
 
-<<<<<<< HEAD
 ## 2. <img src="./assets/icons/BI-Model2.png" width="70%"/>
-=======
-## 2. <img src="./assets/icons/BIModel2.png" width="70%"/>
->>>>>>> 27ed5f13ff0e14f3ced0212cabf1a706ac66ad8a
 
 基本的な知識はおわかりいただけたと思いますので、講師付きトレーニングを受講して　InterSystems IRIS BI がどのように BI テクノロジーをほぼリアルタイムでアプリケーションに直接活用できるかを深く理解してください。
 
 - [InterSystems 組込み分析の使い方](https://www.intersystems.com/jp/intersystems-enbeded-analytics/)
 
-<<<<<<< HEAD
 ## 3. <img src="./assets/icons/BI-Model3.png" width="70%"/>
-=======
-## 3. <img src="./assets/icons/BIModel3.png" width="70%"/>
->>>>>>> 27ed5f13ff0e14f3ced0212cabf1a706ac66ad8a
 
 以下ドキュメントを参照しながら、このパスで確認した内容を振り返ってみましょう。
 
