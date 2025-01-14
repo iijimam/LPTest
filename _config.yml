@@ -16,6 +16,10 @@ collections:
     output: true
     label: FHIR
     permalink: /:collection/:path/
+  analytics:
+    output: true
+    label: analytics
+    permalink: /:collection/:path/
   containers:
     output: true
     label: コンテナ
@@ -33,6 +37,7 @@ ordered_collections:
   - posts
   - developers
   - fhir
+  - analytics
   - containers
   - administrators
   - others

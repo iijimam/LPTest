@@ -55,11 +55,13 @@
                         {% if collection.label=="posts" %}
                             <li class="collection-header">🚶Getting Started🚶</li>
                         {% elsif collection.label=="developers" %}
-                            <li class="collection-header">開発者系</li>
+                            <li class="collection-header">開発</li>
                         {% elsif collection.label=="fhir" %}
                             <li class="collection-header">HL7 FHIR🔥</li>
                         {% elsif collection.label=="administrators" %}
-                            <li class="collection-header">管理者系</li>
+                            <li class="collection-header">管理</li>
+                        {% elsif collection.label=="analytics" %}
+                            <li class="collection-header">分析</li>
                         {% elsif collection.label=="containers" %}
                             <li class="collection-header">コンテナ</li>
                         {% else %}
