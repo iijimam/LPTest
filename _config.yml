@@ -16,6 +16,10 @@ collections:
     output: true
     label: FHIR
     permalink: /:collection/:path/
+  genai:
+    output: true
+    label: GENAI
+    permalink: /:collection/:path/
   analytics:
     output: true
     label: analytics
@@ -37,6 +41,7 @@ ordered_collections:
   - posts
   - developers
   - fhir
+  - genai
   - analytics
   - containers
   - administrators
