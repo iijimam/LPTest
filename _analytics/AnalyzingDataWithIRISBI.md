@@ -46,6 +46,12 @@ InterSystems IRIS® Business Intelligence に含まれるアナライザーツ�
 
 - [ドキュメント：ダッシュボードの作成](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=D2DASH)
 
+- シリーズ記事：[IRIS BI開発者向けチュートリアルを試してみる(2)](https://jp.community.intersystems.com/node/563496)
+
+    アナライザの利用方法をご紹介しています。
+
+    ご自身の環境で試しながら進めることもできます。詳細は「[IRIS BI開発者向けチュートリアルを試してみる(1)](https://jp.community.intersystems.com/node/563396)」をご参照ください。
+
 ## 3. 次の学習候補
 
 - [ビデオ（英語）：Embedded Analytics in Action](https://learning.intersystems.com/enrol/index.php?id=988)
@@ -56,3 +62,14 @@ InterSystems IRIS® Business Intelligence に含まれるアナライザーツ�
 
 - [講師付きトレーニング：InterSystems 組み込み分析の使い方](https://www.intersystems.com/jp/intersystems-enbeded-analytics/)
 
+- シリーズ記事を利用したセルフラーニング
+
+    オンラインドキュメントに含まれるIRIS BIの[開発者向けチュートリアル](https://docs.intersystems.com/iris20231/csp/docbookj/DocBook.UI.Page.cls?KEY=D2DT)の流れに沿ってIRIS BIの概要を理解することができます。
+
+    シリーズ記事には、チュートリアルの中で紹介されている方法の実行結果の解説なども含まれています。
+
+    全部で11記事あります。お好きなページから始めてみてください。
+    
+    【最初のページ】👉[IRIS BI開発者向けチュートリアルを試してみる(1)](https://jp.community.intersystems.com/node/563396)
+
+    >記事先頭と末尾にページ送りのリンクがありますのでご利用ください。
