@@ -1,4 +1,8 @@
+title: InterSystems Learning Path
+description: >
+  InterSystems製品を学習するためのパスをペルソナ別でご紹介しています。
 remote_theme: sighingnow/jekyll-gitbook
+
 toc:
     enabled: true
 syntax_highlighter_style: colorful
