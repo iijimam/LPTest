@@ -1,5 +1,5 @@
 ---
-title: InterSystems製品をはじめてみよう！～パートナー向け～
+title: InterSystems製品をはじめてみよう！
 date: 2024-12-02
 permalink: /GettingStarted-ImplePartner-All.html
 layout: post
@@ -8,9 +8,6 @@ layout: post
 InterSystems IRIS® データプラットフォームを利用して開発するアプリケーションに必要となるコードの記述、インテグレーションの構築、コンポーネントの作成方法、また利用可能なツールについて学習します。
 
 この学習プログラムは、InterSystems IRISを初めて導入する方を対象としています。
-
-> パートナーになることに興味がありますか？[インプリメンテーション・パートナー・プログラムの詳細](https://www.intersystems.com/jp/partners/implementation-partners/)をご覧ください。
-
 
 このラーニング・パスを終了することに加え、以下の講師付きクラスルームトレーニングコースに参加／個別開催の申し込みを行うことを強く推奨します。
 
@@ -23,19 +20,27 @@ InterSystems IRIS® データプラットフォームを利用して開発する
 
 ---
 学習順序は以下の通りです。
-1. <img src="./assets/icons/IRIS.png" width="10%"/>[InterSystems IRIS とは？](#1-intersystems-iris-とは)
-2. <img src="./assets/icons/serversideapp-better-dicision.png" width="10%"/>[サーバサイドアプリケーションの構築](#2-サーバーサイドアプリケーションの構築)
-3. <img src="./assets/icons/integration.png" width="10%"/>[他のシステムとの統合](#3-他のシステムとの統合)
-4. <img src="./assets/icons/custom.png" width="10%"/>[カスタムコンポーネントを使用したシステム統合の開発](#4-カスタムコンポーネントを使用したシステム統合の開発)
-5. <img src="./assets/icons/access-multilanguage.png" width="10%"/>[他言語を使用したデータアクセス](#5-他言語を使用したデータアクセス)
-6. <img src="./assets/icons/APIManagement.png" width="10%"/>[APIの管理](#6-apiの管理)
-7. <img src="./assets/icons/Analytics.png" width="10%"/>[データ分析](#7-データ分析)
-8. <img src="./assets/icons/performance.png" width="10%"/>[パフォーマンスとスピードの最適化](#8-パフォーマンスとスピードの最適化)
+
+[1. <img src="./assets/icons/1-IRIS.png" width="40%"/>](#1-)
+
+[2. <img src="./assets/icons/2-serversideapp-better-dicision.png" width="40%"/>](#2-)
+
+[3. <img src="./assets/icons/3-integration.png" width="40%"/>](#3-)
+
+[4. <img src="./assets/icons/4-custom.png" width="40%"/>](#4-)
+
+[5. <img src="./assets/icons/5-access-multilanguage.png" width="40%"/>](#5-)
+
+[6. <img src="./assets/icons/6-APIManagement.png" width="40%"/>](#6-)
+
+[7. <img src="./assets/icons/7-Analytics.png" width="40%"/>](#7-)
+
+[8. <img src="./assets/icons/8-performance.png" width="40%"/>](#8-)
 
 ---
 
 
-## <img src="./assets/icons/IRIS.png" width="10%"/>1. InterSystems IRIS とは？
+## 1. <img src="./assets/icons/1-IRIS.png" width="70%"/>
 
 InterSystems IRIS®データ・プラットフォームは、信頼性の高い統一プラットフォームで、重要なアプリケーションを迅速に開発・デプロイすることを可能にします。
 
@@ -57,7 +62,7 @@ InterSystems IRIS®データ・プラットフォームは、信頼性の高い�
     {% include youtube.html id="v4uoejre5IU" %}
 
 ---
-## <img src="./assets/icons/serversideapp-better-dicision.png" width="10%"/>2. サーバーサイドアプリケーションの構築
+## 2. <img src="./assets/icons/2-serversideapp-better-dicision.png" width="70%"/>
 
 InterSystems 製品の組み込み言語である InterSystems ObjectScript を使用して、新しいクラスの作成、オブジェクトの操作、SQL クエリの実行について学習します。
 
@@ -146,7 +151,7 @@ InterSystems 製品の組み込み言語である InterSystems ObjectScript を�
 
 
 ---
-## <img src="./assets/icons/integration.png" width="10%"/>3. 他のシステムとの統合
+## 3. <img src="./assets/icons/3-integration.png" width="70%"/>
 
 インターシステムズ製品のInteroperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し、下流のアプリケーションにメッセージを迅速にルーティングすることができます。
 
@@ -200,7 +205,7 @@ InterSystems 製品の組み込み言語である InterSystems ObjectScript を�
 {: .block-tip}
 
 ---
-## <img src="./assets/icons/custom.png" width="10%"/>4. カスタムコンポーネントを使用したシステム統合の開発
+## 4. <img src="./assets/icons/4-custom.png" width="70%"/>
 FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネスコンポーネントが開発者に提供されています。
 
 これだけでは不十分な場合は、カスタムコンポーネントを構築して、データの取り込み方法を完全にカスタマイズすることができます。
@@ -240,7 +245,7 @@ FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネ�
 {: .block-tip}
 
 ---
-## <img src="./assets/icons/access-multilanguage.png" width="10%"/>5. 他言語を使用したデータアクセス
+## 5. <img src="./assets/icons/5-access-multilanguage.png" width="70%"/>
 
 InterSystems IRIS は、各種言語からアクセスすることができます。よくある使い方としては、他DBと同様にSQLベースでアクセスする方法があげられます。
 
@@ -365,7 +370,7 @@ InterSystems Python SDK を使用して、Python から InterSystems IRIS クラ
 - [ビデオ（英語）：Evaluating Python Development Strategies](https://learning.intersystems.com/course/view.php?id=2063)
 
 ---
-## <img src="./assets/icons/APIManagement.png" width="10%"/>6. APIの管理
+## 6. <img src="./assets/icons/6-APIManagement.png" width="70%"/>
 
 ### 1. InterSystems API Managerとは
 InterSystems API Manager は、アプリケーション間のゲートウェイとして機能し、トラフィックを監視・制御します。
@@ -390,7 +395,7 @@ InterSystems API Manager を使用して、InterSystems IRIS® データ・プ�
 ✅参考記事：[ゼロから使いこなす IAM（InterSystems API Manager）](https://jp.community.intersystems.com/node/493416)
 
 ---
-## <img src="./assets/icons/Analytics.png" width="10%"/>7. データ分析
+## 7. <img src="./assets/icons/7-Analytics.png" width="70%"/>
 InterSystems IRISに組み込まれたInterSystems IRIS Business Intelligenceは、ほぼリアルタイムの分析を提供します。このデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。レポート作成に関するリソースは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reportsでデータを視覚的に提供する)のセクションを参照してください。
 
 - [ビデオ（英語）：InterSystems のアナリティクス入門](https://learning.intersystems.com/course/view.php?id=1979)
@@ -506,7 +511,7 @@ InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用
 - [オンラインコース（英語）：InterSystems IRIS Adaptive Analytics Essential](https://learning.intersystems.com/course/view.php?name=AdaptiveAnalyticsEssentials)
 
 ---
-## <img src="./assets/icons/performance.png" width="10%"/>8. パフォーマンスとスピードの最適化
+## 8. <img src="./assets/icons/8-performance.png" width="70%"/>
 
 アプリケーションのパフォーマンスを必要なだけ確保するためには、高性能なインジェストツールでシステムを構成するだけでなく、大量かつ高速なインジェストのためにシャーディングを設定し、フェイルオーバーのためにミラーリングを設定する必要があります。このセクションでは、これらの推奨事項の多くについて説明する。
 
