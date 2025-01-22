@@ -1,25 +1,11 @@
 ---
-title: InterSystems製品をはじめてみよう！
+title: InterSystems 製品で開発を始める
 date: 2024-12-02
 permalink: /GettingStarted-All.html
 layout: post
 ---
 
-InterSystems IRIS® データプラットフォームを利用して開発するアプリケーションに必要となるコードの記述、インテグレーションの構築、コンポーネントの作成方法、また利用可能なツールについて学習します。
-
-この学習プログラムは、InterSystems IRISを初めて導入する方を対象としています。
-
-このラーニング・パスを終了することに加え、以下の講師付きクラスルームトレーニングコースに参加／個別開催の申し込みを行うことを強く推奨します。
-
-- [InterSystems SQL](https://www.intersystems.com/jp/intersystems-sql/)
-- [InterSystems Object](https://www.intersystems.com/jp/intersystems-object/)
-    - このコースは**ObjectScriptを学習するコースではありません。**
-    - InterSystems製品でオブジェクト指向プログラミングを行う方法、また永続クラス定義の作成、オブジェクト操作方法を学習するためのコースです。
-- [InterSystems Server システム管理1](https://www.intersystems.com/jp/intersystems-server-system-administration/)
-- [InterSystems Server システム管理2：セキュリティ管理編](https://www.intersystems.com/jp/intersystems-server-system-administration-2/)
-
----
-学習順序は以下の通りです。
+これから InterSystems 製品を利用される開発者を対象に、以下の学習項目を体験できるパスです。
 
 [1. <img src="./assets/icons/1-IRIS.png" width="40%"/>](#1-)
 
@@ -36,6 +22,17 @@ InterSystems IRIS® データプラットフォームを利用して開発する
 [7. <img src="./assets/icons/7-Analytics.png" width="40%"/>](#7-)
 
 [8. <img src="./assets/icons/8-performance.png" width="40%"/>](#8-)
+
+
+このパスの他に、以下講師付きクラスルームトレーニングコースの受講を推奨いたします。
+
+- [InterSystems SQL](https://www.intersystems.com/jp/intersystems-sql/)
+- [InterSystems Object](https://www.intersystems.com/jp/intersystems-object/)
+    - このコースは**ObjectScriptを学習するコースではありません。**
+    - InterSystems製品でオブジェクト指向プログラミングを行う方法、また永続クラス定義の作成、オブジェクト操作方法を学習するためのコースです。
+- [InterSystems Server システム管理1](https://www.intersystems.com/jp/intersystems-server-system-administration/)
+- [InterSystems Server システム管理2：セキュリティ管理編](https://www.intersystems.com/jp/intersystems-server-system-administration-2/)
+
 
 ---
 
