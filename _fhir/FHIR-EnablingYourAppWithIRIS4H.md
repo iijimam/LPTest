@@ -1,5 +1,5 @@
 ---
-title: FHIR - InterSystems IRIS for Healthでアプリケーションを有効にする
+title: アプリケーションを FHIR 対応にする
 date: 2024-12-02
 permalink: FHIR-EnablingYourAppWithIRIS4H.html
 layout: post
