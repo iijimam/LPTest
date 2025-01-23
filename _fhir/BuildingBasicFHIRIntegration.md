@@ -88,14 +88,9 @@ InterSystems IRIS for Health が受信する HL7® CDA®、CSV、HL7® V2、XML 
 - [演習環境付き体験（英語）：Importing FHIR Packages into the InterSystems IRIS for Health Server](https://learning.intersystems.com/course/view.php?id=1721)
 
 
-✅ ビデオ：他形式データからFHIR への変換
-
-{% include youtube-list.html id="dsB3cS333LI" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=9" %}
-
-✅ ビデオ：FHIR プロファイル(https://jp.community.intersystems.com/node/495321)
+✅ [ビデオ：FHIR プロファイル](https://jp.community.intersystems.com/node/495321)
 
 {% include youtube-list.html id="B-B6ge_0nHg" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=8" %}
-
 
 ✅ [FHIR R4 リソースリポジトリを簡単にお試しいただける開発環境テンプレートのご紹介](https://jp.community.intersystems.com/node/491836)
 
@@ -104,11 +99,15 @@ InterSystems IRIS for Health が受信する HL7® CDA®、CSV、HL7® V2、XML 
 {% include youtube-list.html id="AYz6d7MxXos" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=11" %}
 
 
-
 ---
 ## 3. <img src="./assets/icons/FHIR/Integration3.png" width="70%"/>
 
 InterSystems IRIS for Health を使用して、Summary Document Architecture（SDA）と組み込みの変換を使用して、受信データを FHIR フォーマットに変換します。
+
+✅ ビデオ：他形式データからFHIR への変換
+
+{% include youtube-list.html id="dsB3cS333LI" list="PLzSN_5VbNaxBu4kMgZrK5iGi-GIGNxvpu&index=9" %}
+
 
 > **英語ビデオやオンラインコース**
 >- [ビデオ（英語）：Converting Legacy Data to HL7 FHIR R4 in InterSystems IRIS for Health](https://learning.intersystems.com/course/view.php?id=1744)
