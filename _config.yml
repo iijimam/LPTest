@@ -8,6 +8,9 @@ toc:
     h_max: 2
 syntax_highlighter_style: colorful
 
+tracker:
+  google_analytics: G-1LQVED30HC
+
 collections:
   pages:
     output: true
