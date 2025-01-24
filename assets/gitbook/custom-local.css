@@ -21,3 +21,11 @@
    font-size: 2.0rem;
    /*text-transform: uppercase; */
 }
+
+.transcript {
+   color:teal;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+}
