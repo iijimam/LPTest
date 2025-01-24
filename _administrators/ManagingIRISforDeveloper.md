@@ -1,5 +1,5 @@
 ---
-title: 開発者向け InterSystems IRIS の管理
+title: 開発者向け InterSystems IRIS の管理概要
 date: 2024-12-04
 permalink: ManagingIRISforDeveloper.html
 layout: post

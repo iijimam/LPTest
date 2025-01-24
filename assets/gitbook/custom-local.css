@@ -12,3 +12,12 @@
    /*text-transform: uppercase; */
    padding-left: 30px;
 }
+
+.details-header {
+   font-weight: bold;
+   color:darkblue;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 2.0rem;
+   /*text-transform: uppercase; */
+}
