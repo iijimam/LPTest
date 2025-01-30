@@ -7,9 +7,9 @@ layout: post
 
 >オリジナル[Building Business Integrations with InterSystems IRIS](https://learning.intersystems.com/course/view.php?id=1437)
 
-InterSystems 製品の相互運用性（Interoperability）フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し、下流のアプリケーションにメッセージを迅速にルーティングすることができます。
+InterSystems 製品の相互運用性（Interoperability）フレームワークによりインターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し下流のアプリケーションにメッセージを迅速にルーティングすることができます。
 
-このパスでは、統合（インテグレーション）の基本を学び、組み込みオプションやカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認できます。
+このパスでは、統合（インテグレーション）の基本を学び組み込みオプションやカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認できます。
 
 [1. <img src="./assets/icons/1.png" width="40%"/>](#1-)
 

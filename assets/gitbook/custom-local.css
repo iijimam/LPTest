@@ -21,6 +21,22 @@
    font-size: 2.0rem;
    /*text-transform: uppercase; */
 }
+.details-summary {
+   font-weight: bold;
+   /*color:rgb(147, 193, 234);*/
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.6rem;
+   /*text-transform: uppercase; */
+}
+
+.details-contents {
+   /*color:teal;*/
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+}
 
 .transcript {
    color:teal;
