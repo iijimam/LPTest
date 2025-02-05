@@ -1,6 +1,6 @@
 ---
 title: .NETアプリケーションとInterSystems製品の接続
-date: 2024-12-11
+date: 2024-12-12
 permalink: dotNetApptoISCProducts.html
 layout: post
 ---
@@ -11,7 +11,7 @@ ADO.NET、XEP、Entity Framework、または Native API（Native SDK for .NET）
 他の言語からの接続については、以下の通りです。
 - [Python アプリケーションを作成する](WritingPythonAppWithInterSystems.html)
 
-- [Connecting Java Applications](https://learning.intersystems.com/course/view.php?name=Java%20Experience)
+- [Java アプリケーションと InterSystems 製品の接続](JavaApptoISCProducts.html)
 
 - [Connecting Node.js Application](https://learning.intersystems.com/course/view.php?name=Node.js%20Experience)
 
@@ -35,7 +35,9 @@ ADO.NET、XEP、Entity Framework、または Native API（Native SDK for .NET）
 
 各 API の利点を確認し、.NET アプリケーションを InterSystems 製品に接続するための方法を確認します。
 
-- [ビデオ：.NET 概要（英語／日本語字幕付き）](https://learning.intersystems.com/course/view.php?id=1059)
+- ビデオ：Using .NET to Connect to InterSystems IRIS（英語／日本語字幕付き）
+
+{% include youtube.html id="UqE7gaBHhxE" %} 
 
 - [オンラインコース（英語）：Designing a .NET Connection Strategy](https://learning.intersystems.com/course/view.php?name=.NET%20Connection%20Strategy)
 
