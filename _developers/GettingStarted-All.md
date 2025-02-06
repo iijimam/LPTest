@@ -5,7 +5,11 @@ permalink: /GettingStarted-All.html
 layout: post
 ---
 
-これから InterSystems 製品を利用される開発者を対象に、以下の学習項目を体験できるパスです。
+InterSystems IRIS® data platform の利用可能なツールや InterSystems IRIS または IRIS for Health を使用したアプリケーションのセットアップと開発の基本について学習できるパスです。
+
+これから InterSystems 製品を利用される開発者を対象に構成されています。
+
+学習項目詳細は以下の通りです。
 
 [1. <img src="./assets/icons/1-IRIS.png" width="40%"/>](#1-)
 
@@ -124,7 +128,7 @@ InterSystems IRIS は統合データベース プラットフォームであり�
 ビジネスを前進させるアプリケーションを構築するのであれば、InterSystems IRIS 上での構築をお勧めします
 </div>
 </details>
-> **※ NLPについての説明が含まれますが、この機能はバージョン2023.3以降の製品には含まれなくなりました。現在は<a href="https://github.com/intersystems/iknow/" target="_blank">オープンソース版</a>を公開しています。** 
+> ※ NLPについての説明が含まれますが、この機能はバージョン2023.3以降の製品には含まれなくなりました。現在は<a href="https://github.com/intersystems/iknow/" target="_blank">オープンソース版</a>を公開しています。 
 {: .block-warning}
 <br>
 
@@ -133,10 +137,27 @@ InterSystems IRIS は統合データベース プラットフォームであり�
 {: .block-warning}
 {% include youtube-list.html id="vo12UnH-c-s" list="PLzSN_5VbNaxD-r8wU4LHwLwGSzUjrffEX" %}
 
-
+<br>
 - InterSystems へようこそ
 
     {% include youtube.html id="v4uoejre5IU" %}
+
+<details>
+<summary> ▶日本語字幕 </summary>
+<div class="transcript">
+InterSystems は、世界で最も重要なアプリケーションを支えるエンジンです。<br>
+私たちのお客様は、医療、ビジネス、政府のシステムを円滑に運営しています。世界中の 5 億人以上の人々が、必要な情報への確実なアクセスを提供する当社のテクノロジーに信頼を寄せています。<br>
+
+私たちが構築するすべての製品は、相互運用性（Interoperability）、信頼性（Reliability）、直感性（Intuitiveness）、拡張性（Scalability）という原則を実現しています。私たちのコードはエレガントでシンプルに設計されておりソリューションは効率的です。<br>
+
+私たちは、お客様の成功のために必要なことは何でもします。私たちの最高の人材がお客様からのお問い合わせに対しサポートいたします。<br>
+
+パートナーシップこそが私たちのビジネスの理由です。私たちは個人経営であるため、私たちが行うことはすべてお客様のためでありお客様だけのものです。<br>
+クライアントのアプリケーションは、失敗が許されないほど重要なものだからです。<br>
+必要なときに必要な情報を確実に入手できるよう、私たちはここにいます。<br>
+私たちは、世界を前進させるソリューションを構築します。重要なデータを管理するなら InterSystems にお任せください。
+</div>
+</details>
 
 ---
 ## 2. <img src="./assets/icons/2-serversideapp-better-dicision.png" width="70%"/>
@@ -150,131 +171,168 @@ InterSystems 製品の組み込み言語である InterSystems ObjectScript を�
 - ビジネスルールとメッセージルータのコードで作成するカスタム関数
 - カスタムコードによる高度なデータ変換の作成
 
-カスタム・ビジネス・コンポーネントの構築方法の詳細については[「カスタムコンポーネントを使用したシステム統合の開発」](#4-カスタムコンポーネントを使用したシステム統合の開発)をご参照ください。
+カスタム・ビジネス・コンポーネントの構築方法の詳細については[「カスタムコンポーネントを使用したシステム統合の開発」](#4-)をご参照ください。
 
 ### はじめに
 
-最初に、概要をビデオでご覧ください。その後、InterSystems IRIS® データプラットフォームのアーキテクチャとクラスの基本を学び、ObjectScript でのコーディングを開始します。
+最初に概要をビデオでご覧ください。
+
+InterSystems IRIS® データプラットフォームのアーキテクチャとクラスの基本を学び、ObjectScript でのコーディングを開始します。
 
 - InterSystems 製品のアーキテクチャ概要 ～ネームスペースとデータベース～
 
     {% include youtube-list.html id="TNjUnuw8K_Q" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %} 
 
+<details>
+<summary> ▶日本語字幕 </summary>
+<div class="transcript">
+こんにちは、InterSystems のテクニカルトレーナーのシェーンです。このビデオでは InterSystems 製品のアーキテクチャについてお話します。<br>
+InterSystems 製品のアーキテクチャーについて説明する際、私たちは常に 2 つの主要な概念であるデータベースとネームスペースについて説明しています。<br>
+
+データベースは物理的なファイルです。これらファイルはファイルシステム上のどこかに置かれています。<br>
+InterSystems 製品の場合、データベース・ファイルにはデータだけでなくコードも含まれます。つまり、データベースは、データとコードを含むファイルシステム上の物理ファイルで、どこかのディレクトリに存在しています。<br><br>
+
+ネームスペースは、データベース・レイヤの上にある抽象化された論理レイヤで、1 つ以上のデータベース・ファイルを参照します。<br>
+新しいネームスペースを作成しようとすると、データ用のデフォルト・データベースとコード用のデフォルト・データベースの設定を求められます。<br>
+確認のため、振り返りましょう。<br>
+データベースは、データとコードを含むファイル・システム内の物理ファイルです。ネームスペースは、いくつかのデータベースを参照できる抽象化された論理定義です。<br><br>
+
+ユーザがシステムに接続するとき、またアプリケーションが例えば ODBC や JDBC 経由でシステムに接続したり REST サービスや管理ポータルのような Web 接続を行ったり、ターミナルセッションで接続したりします。<br>
+ユーザやアプリケーションがシステムへ接続する際、ネームスペースを指定します。<br>
+
+例えば、請求処理を行うアプリケーションがあるとします。<br>
+あなたは BILLING ネームスペースから、BILL データ・データベースと BILL コード・データベースに接続しようとします。<br>
+この他に、ネームスペースから他のデータベースファイルをマッピングして利用することもできます。<br>
+例えば、会計情報を取り扱う FINANCE ネームスペースを見てみましょう。<br>
+このネームスペースではデフォルトのデータベースに加え、追加データを操作できるようにマッピングを追加することができます。<br>
+また、他のユーザが他のアプリケーションに接続するために使用する他のデータベースを参照する VENDOR という名前のネームスペースも作成できます。<br>
+このネームスペースはデフォルトデータベースとして、VEN データ・データベースと VEN コード・データベースを使用しています。<br>
+
+このネームスペースは FINANCE データベースに Mapping されています。<br>
+この定義により、ネームスペースに接続しているアプリケーションが FINANCE にあるデータを参照できることを示しています。<br>
+そして、アプリケーションが接続している BILLING ネームスペースも同様に、FINANCE データベースのデータを参照できます。<br>
+<br>
+これは、ユーザとアプリケーションが1つのエントリーポイントでシステムに接続でき、ファイルシステム内のどこにファイルが存在するかという実装の詳細を気にすることなく多くのデータベースファイルからなるコードやデータを利用できるようにしています。<br>
+<br>
+これが、InterSystems 製品のアーキテクチャです。<br>
+より詳細を確認されたい場合は、その他のビデオや記事をご参照ください。
+</div>
+</details>
 
 ### 日本語：セルフラーニングビデオ
 
 オリエンテーションに最適なセルフラーニングビデオやコンテンツをご用意しています。
 
-- 以下動画から、IRISの開発環境の作成方法、ネームスペース／データベースについて、IDEからIRISに接続する方法を確認できます。
+- 以下動画から、IRIS の開発環境の作成方法、ネームスペース／データベースについて、IDE から IRIS に接続する方法を確認できます。
 
-    ✅ [【はじめての InterSystems IRIS】セルフラーニングビデオ：基本その2：InterSystems IRIS で開発をはじめよう！](https://jp.community.intersystems.com/node/478601)
+    ✅ <a href="https://jp.community.intersystems.com/node/478601" target="_blank">【はじめての InterSystems IRIS】セルフラーニングビデオ：基本その2：InterSystems IRIS で開発をはじめよう！</a>
 
     {% include youtube-list.html id="ID6ImJTgJRk" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %} 
     
-
-- ObjectScriptの基本操作の学習については、**[ObjectScript クックブック：ObjectScriptの基本のき！](https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md)** をご参照ください。
-
+<br>
+- ObjectScriptの基本操作の学習については、**<a href="https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md" target="_blank">[ObjectScript クックブック：ObjectScriptの基本のき！</a>** をご参照ください。
+<br><br>
 - 以下動画から、クラス定義の作成からインスタンス生成、保存までの流れを確認できます。
 
-    ✅ [【はじめての InterSystems IRIS】セルフラーニングビデオ：基本その3：IRIS でクラス定義を作ろう（オブジェクト操作の練習）](https://jp.community.intersystems.com/node/478606)
+    ✅ <a href="https://jp.community.intersystems.com/node/478606" target="_blank">【はじめての InterSystems IRIS】セルフラーニングビデオ：基本その3：IRIS でクラス定義を作ろう（オブジェクト操作の練習）</a>
 
     {% include youtube.html id="kWJCzn9bndQ" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %} 
 
+<br>
+- 以下動画から InterSystems 製品での JSON 操作方法をご確認いただけます。
 
-- 以下動画からInterSystems製品でのJSON操作方法をご確認いただけます。
-
-    ✅ コピペ元がある記事：[【はじめてのInterSystems IRIS】セルフラーニングビデオ：アクセス編：IRIS での JSON の操作](https://jp.community.intersystems.com/node/480106)
+    ✅ コピー＆ペースト元がある記事：<a href="https://jp.community.intersystems.com/node/480106" target="_blank">【はじめてのInterSystems IRIS】セルフラーニングビデオ：アクセス編：IRIS での JSON の操作</a>
 
     {% include youtube-list.html id="045HRug72VE" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %} 
 
+<br>
+- メソッド内で SQL を記述する方法については、以下クックブックをご参照ください。
 
-- メソッド内でSQLを記述する方法については、以下クックブックをご参照ください。
-
-    ✅ [ObjectScriptクックブック：7.メソッドやルーチンでSQLを実行する方法](https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md#7-%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%82%84%E3%83%AB%E3%83%BC%E3%83%81%E3%83%B3%E3%81%A7sql%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95)
+    ✅ <a href="https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md#7-%E3%83%A1%E3%82%BD%E3%83%83%E3%83%89%E3%82%84%E3%83%AB%E3%83%BC%E3%83%81%E3%83%B3%E3%81%A7sql%E3%82%92%E5%AE%9F%E8%A1%8C%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95" target="_blank">ObjectScriptクックブック：7.メソッドやルーチンでSQLを実行する方法</a>
 
 
 関連するトレーニングコースは以下の通りです。
-- [InterSystems Object（2日間）](https://www.intersystems.com/jp/intersystems-object/)
-- [InterSystems SQL（2日間）](https://www.intersystems.com/jp/intersystems-sql/)
+- <a href="https://www.intersystems.com/jp/intersystems-object/" target="_blank">InterSystems Object（2日間）</a>
+- <a href="https://www.intersystems.com/jp/intersystems-sql/" target="_blank">InterSystems SQL（2日間）</a>
   
 
 > **英語のみとなりますが、以下のオンラインコースもあります。**
 >
-> - [オンラインコース（英語）：Creating an InterSystems Class Definition in VS Code](https://learning.intersystems.com/course/view.php?name=IRIS%20Class)
+> - <a href="https://learning.intersystems.com/course/view.php?name=IRIS%20Class" target="_blank">オンラインコース（英語）：Creating an InterSystems Class Definition in VS Code</a>
 >
-> - [オンラインコース（英語）:InterSystems ObjectScript Basics](https://learning.intersystems.com/course/view.php?name=Cach%C3%A9%20ObjectScript%20Basics)
+> - <a href="https://learning.intersystems.com/course/view.php?name=Cach%C3%A9%20ObjectScript%20Basics" target="_blank">オンラインコース（英語）:InterSystems ObjectScript Basics</a>
 >
-> - [オンラインコース（英語）:InterSystems IRIS Objects Introduction](https://learning.intersystems.com/enrol/index.php?id=2225)
+> - <a href="https://learning.intersystems.com/enrol/index.php?id=2523" target="_blank">オンラインコース（英語）:InterSystems IRIS Objects Introduction
 >
-> - [オンラインコース（英語）：InterSystems SQL Overview](https://learning.intersystems.com/enrol/index.php?id=960)
+> - <a href="https://learning.intersystems.com/course/view.php?name=Cach%C3%A9%20SQL%20Overview" target="_blank">オンラインコース（英語）：InterSystems SQL Overview</a>
 >
-> - [オンラインコース（英語）:Using JSON in InterSystems IRIS](https://learning.intersystems.com/course/view.php?name=JSON%20in%20IRIS)
+> - <a href="https://learning.intersystems.com/course/view.php?name=JSON%20in%20IRIS" target="_blank">オンラインコース（英語）:Using JSON in InterSystems IRIS</a>
 >
-> - [演習環境付き演習（オンラインコース）：Learning Path Exercise: Building a Server-Side Application with InterSystems IRIS](https://learning.intersystems.com/course/view.php?name=Server-Side%20Application%20Exercise)
+> - <a href="https://learning.intersystems.com/course/view.php?name=Server-Side%20Application%20Exercise" target="_blank">演習環境付き演習（オンラインコース）：Learning Path Exercise: Building a Server-Side Application with InterSystems IRIS</a>
 >
->    InterSystems IRIS® データプラットフォームと InterSystems ObjectScript を使用して、小規模なデータベースアプリケーションを作成します。
+>    InterSystems IRIS® データプラットフォームと InterSystems ObjectScript を使用して小規模なデータベースアプリケーションを作成します。
 >    
->    この演習では、InterSystems IRIS を使用したサーバサイド・アプリケーションの構築の学習パスで学習したすべてのスキルを結集して、大規模な書籍コレクションに関する情報を格納および取得するためのクラスを作成し、SQL を使用します。
+>    この演習では、InterSystems IRIS を使用したサーバサイド・アプリケーションの構築の学習パスで学習したすべてのスキルを結集して、大規模な書籍コレクションに関する情報を格納および取得するためのクラスを作成し SQL を使用します。
 >    
->    この演習は、既存の知識をテストするために学習パスを開始する前に、またはキャップストーン・プロジェクトとして最後にお試しください。
+>    この演習は、既存の知識をテストするために学習パスを開始する前にまたはキャップストーン・プロジェクトとして最後にお試しください。
 {: .block-tip}
 
 
 ### 認定テスト受験の準備が整ったら・・・
 
-インターシステムズ・ラーニング・サービスは、業界標準の認定試験を提供し、あなたがインターシステムズの技術を習得していることを証明します。当社の試験は、安全なオンライン試験監督とセルフサービス予約で提供されます。受験者は、いつでもどこでも、都合のよいときに試験を受けることができます。
+InterSystems Learning Services では、業界標準の認定試験を提供しあなたが InterSystems の技術を習得していることを証明します。
 
-※英語のみ：[Exam: InterSystems IRIS Core Solutions Developer Specialist](https://www.intersystems.com/education/)
+当社の試験は、安全なオンライン試験監督とセルフサービス予約で提供されます。受験者は、いつでもどこでも都合のよいときに試験を受けることができます。
+
+※英語のみ：<a href="https://www.intersystems.com/education/" target="_blank">Exam: InterSystems IRIS Core Solutions Developer Specialist</a>
 
 
 ---
 ## 3. <img src="./assets/icons/3-integration.png" width="70%"/>
 
-インターシステムズ製品のInteroperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し、下流のアプリケーションにメッセージを迅速にルーティングすることができます。
+InterSystems 製品の Interoperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し下流のアプリケーションにメッセージを迅速にルーティングすることができます。
 
-このパスでは、インテグレーションの基本を学び、組み込みオプションとカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認します。
+このパスでは、インテグレーションの基本を学び組み込みオプションとカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認します。
 
-- [体験環境付き演習：Receiving and Routing Data in a Production](https://learning.intersystems.com/course/view.php?name=Interop%20QS)
+- <a href="https://learning.intersystems.com/course/view.php?name=Interop%20QS" target="_blank">体験環境付き演習：Receiving and Routing Data in a Production</a>
 
     ※ページ内のビデオは日本語切り替えができます。
 
-    演習内容サンプルはこちら👉http://github.com/intersystems/Samples-Integration-RedLights
+    <a href="http://github.com/intersystems/Samples-Integration-RedLights" target="_blank">演習内容サンプル</a>
    
-- [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：動作の仕組みを知ろう](https://jp.community.intersystems.com/node/483036)
+- <a href="https://jp.community.intersystems.com/node/483036" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：動作の仕組みを知ろう</a>
 
-- [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：プロダクションとは](https://jp.community.intersystems.com/node/483041)
+- <a href="https://jp.community.intersystems.com/node/483041" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：プロダクションとは</a>
 
 - レコードマップのご紹介
 
-    InterSystems製品のInteroperability（相互運用性）メニューで使用できるファイル入出力処理に便利な機能をビデオで解説しています。
+    InterSystems 製品の Interoperability（相互運用性）メニューで使用できるファイル入出力処理に便利な機能をビデオで解説しています。
 
-    {% include youtube-list.html id="dnfPTffiSVo" list="PLzSN_5VbNaxD-r8wU4LHwLwGSzUjrffEX" %} 
+    {% include youtube-list.html id="dnfPTffiSVo" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5&index=10" %} 
+<br>
+✅関連記事：<a href="https://jp.community.intersystems.com/node/494326" target="_blank">レコードマップで何ができるか？</a>
 
-
-✅関連記事：[レコードマップで何ができるか？](https://jp.community.intersystems.com/node/494326)
-
-
-- [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・プロセス）](https://jp.community.intersystems.com/node/483171)
+- <a href="https://jp.community.intersystems.com/node/483171" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・プロセス）</a>
 
 - ビジネス・ルールエディタの使い方（※新エディタに未対応）
 
     {% include youtube-list.html id="4tG-txYZwtg" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %}
-
+<br>
 >**英語のみとなりますが、以下のオンラインコースもあります。**
->- [オンラインコース（英語）:Integration Architecture](https://learning.intersystems.com/course/view.php?id=908)
+>- <a href="https://learning.intersystems.com/course/view.php?name=Integration%20Architecture" target="_blank">オンラインコース（英語）:Integration Architecture</a>
 >
->    InterSystems IRIS®データプラットフォーム、InterSystems HealthShare®、InterSystems Ensemble®の統合機能の基本的なアーキテクチャを学習します。
+>    InterSystems IRIS® data platform、InterSystems HealthShare® の統合機能の基本的なアーキテクチャを学習します。
 >    
->    これらのコンポーネントを通じてデータがどのように流れ、システム間の相互運用が可能になるかを学びます。
+>   InterSystems の統合ソリューションでは、プロダクションを作成します。このプロダクションには、外部システムと通信する要素とプロダクション内部で処理を実行する要素が含まれます。
 >
->    このコースには、3 つのレッスンと数問のクイズが含まれています。ビデオはフルスクリーンモードでご覧ください。
+>   このコースでは、プロダクションの各要素がどのように機能するかを確認します。これらのコンポーネントを通してデータがどのように流れ、システム間の相互運用が可能になるかを学びます。
 >
->- [ビデオ（英語）:Using the Complex Record Mapper](https://learning.intersystems.com/enrol/index.php?id=1426)
+>- <a href="https://learning.intersystems.com/enrol/index.php?id=1426" target="_blank">ビデオ（英語）:Using the Complex Record Mapper</a>
 >    
 >
->- [ビデオ（英語）Building BPL Business Processes (1h 30m)](https://learning.intersystems.com/enrol/index.php?id=2030)
+>- <a href="https://learning.intersystems.com/enrol/index.php?id=2568" target="_blank">ビデオ（英語）Building BPL Business Processes (1h 30m)</a>
 >
->- [オンラインコース（英語）:Data Transformations Basics](https://learning.intersystems.com/enrol/index.php?id=1170)
+>- <a href="https://learning.intersystems.com/enrol/index.php?id=2529" target="_blank">オンラインコース（英語）:Data Transformations Basics</a>
 >
 >    グラフィカルな管理ポータル・インタフェースを使用して、データ変換を作成する方法を学びます。フィールドをマップする方法、フィールドを変更する関数を使用する方法、およびフィールドの値としてリテラルを使用する方法をご覧ください。最後に、変換をテストして実装する方法を学びます。
 >
@@ -287,48 +345,107 @@ FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネ�
 
 これだけでは不十分な場合は、カスタムコンポーネントを構築して、データの取り込み方法を完全にカスタマイズすることができます。
 
-- Interoperabilityメニューで使用するカスタムメッセージクラス作成方法
+- Interoperability メニューで使用するカスタムメッセージクラス作成方法
 
-    関連記事：[【はじめてのInterSystems IRIS】Interoperability（相互運用性）：メッセージ](https://jp.community.intersystems.com/node/483131)
+    ✅ 関連記事：<a href="https://jp.community.intersystems.com/node/483131" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：メッセージ</a>
 
     {% include youtube.html id="K6jAqSpnaXY"%}
 
+<br>
+- <a href="https://jp.community.intersystems.com/node/483136" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・オペレーション）</a>
 
-- [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・オペレーション）](https://jp.community.intersystems.com/node/483136)
+- <a href="https://jp.community.intersystems.com/node/483186" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・サービス）</a>
 
-- [【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・サービス）](https://jp.community.intersystems.com/node/483186)
+    アダプタを使用しないビジネス・サービスを直接呼び出す例として REST 経由でのアクセス方法があります。以下、IRIS で REST サーバを作成する方法を解説している関連記事とビデオです。
 
-    アダプタを使用しないビジネス・サービスを直接呼び出す例としてREST経由でのアクセス方法があります。以下、IRISでRESTサーバを作成する方法を解説している関連記事とビデオです。
+    ✅ 記事： <a href="https://jp.community.intersystems.com/node/479551" target="_blank">【はじめてのInterSystems IRIS】セルフラーニングビデオ：アクセス編：（REST）手動で作成するディスパッチクラス</a>
 
-    ✅ 記事： [【はじめてのInterSystems IRIS】セルフラーニングビデオ：アクセス編：（REST）手動で作成するディスパッチクラス](https://jp.community.intersystems.com/node/479551)
-
-    ✅ 関連記事：[REST経由で情報を入力する場合の Interoperability（相互運用性機能）のサンプル](https://jp.community.intersystems.com/node/559356)
+    ✅ 関連記事：<a href="https://jp.community.intersystems.com/node/559356" target="_blank">REST経由で情報を入力する場合の Interoperability（相互運用性機能）のサンプル</a>
 
     {% include youtube-list.html id="q3XVT98_05I" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %}
 
-    
+<br>
 
 >**英語のみとなりますが、以下のオンラインコースもあります。**
->- [オンラインコース（英語）：Building Custom Business Operations](https://learning.intersystems.com/course/view.php?name=Building%20Custom%20Business%20Operations)
+>- <a href="https://learning.intersystems.com/course/view.php?name=Building%20Custom%20Business%20Operations" target="_blank">オンラインコース（英語）：Building Custom Business Operations</a>
 >
->- [オンラインコース（英語）:Building Custom Business Services (1h 30m)](https://learning.intersystems.com/enrol/index.php?id=2031)
+>- <a href="https://learning.intersystems.com/course/view.php?id=2574" target="_blank">オンラインコース（英語）：Building Custom Business Services (1h 30m)</a>
 >
->- [オンラインコース（英語）:Setting Up RESTful Services](https://learning.intersystems.com/course/view.php?name=REST%20Services)
+>- <a href="https://learning.intersystems.com/course/view.php?name=REST%20Services" target="_blank">オンラインコース（英語）：Setting Up RESTful Services</a>
 >
->    APIファーストのステップで作るCoffee Maker API
->- [ビデオ（英語）What is PEX?](https://learning.intersystems.com/enrol/index.php?id=1716)
+>    APIファーストのステップで作る Coffee Maker API
+>- <a href="https://learning.intersystems.com/enrol/index.php?id=1716" target="_blank">ビデオ（英語）What is PEX?</a>
 >
->    Production EXtension フレームワーク (PEX) を使用すると、ObjectScript を学習することなく、.NET または Java でカスタム相互運用性コンポーネントを構築できます。PEX を使用すると、使い慣れた言語でコーディングし、確立されたコードライブラリを活用して、プロダクションにコンポーネントを追加できます。PEX を使用してプロダクションを構築する方法については、オンラインコース（英語）[「Creating Interoperability Productions Using PEX」（1 時間）](https://learning.intersystems.com/course/view.php?name=PEXInteroperabilityProductions)を受講してください。
+>    Production EXtension フレームワーク (PEX) を使用すると、ObjectScript を学習することなく .NET または Java でカスタム相互運用性コンポーネントを構築できます。PEX を使用すると使い慣れた言語でコーディングし確立されたコードライブラリを活用してプロダクションにコンポーネントを追加できます。
+>
+>   PEX を使用してプロダクションを構築する方法については、オンラインコース（英語）<a href="https://learning.intersystems.com/course/view.php?name=PEXInteroperabilityProductions" target="_blank">「Creating Interoperability Productions Using PEX」（1 時間）</a>を受講してください。
 {: .block-tip}
 
 ---
 ## 5. <img src="./assets/icons/5-access-multilanguage.png" width="70%"/>
 
-InterSystems IRIS は、各種言語からアクセスすることができます。よくある使い方としては、他DBと同様にSQLベースでアクセスする方法があげられます。
+InterSystems IRIS は、各種言語からアクセスすることができます。よくある使い方としては、他 DB と同様に SQL ベースでアクセスする方法があげられます。
 
-このパスの最初に、他の SQL データベースからの移行する際、よく使用される DDL スクリプトを使用した SQL テーブルを構築する方法について説明します。
+このパスの最初に他の SQL データベースからの移行する際よく使用される DDL スクリプトを使用した SQL テーブルを構築する方法について説明します。
 
-[ビデオ（英語）Importing Relational Data Using a DDL Script](https://learning.intersystems.com/course/view.php?id=2174)
+{% include youtube.html id="deo8KfS-oeI" %}
+<br>
+<details>
+<summary> ▶日本語字幕 </summary>
+<div class="transcript">
+データベースは、データだけが保存されているのではなくデータを保持するために定義するテーブルやテーブル間のリレーションシップも含まれます。SQL では、データベースの構造を定義および管理するためにデータ定義言語 (DDL) が使用されます。
+<br>
+DDL スクリプトを使用することでデータベースを InterSystems IRIS data platform に移行したり、既存のデータベースの構造を使用して新しいデータベースを開始したりすることができます。
+<br>
+全体としてこのプロセスには 2 つの重要なステップがあります。まず、外部データベースまたは InterSystems IRIS から DDL スクリプトをエクスポートします。
+<br>
+次に、InterSystems Terminal でスクリプトをインポートするコマンドを実行します。InterSystems は、スクリプト内の情報を使用してテーブルとそのリレーションシップを構築します。
+<br>
+これらの手順を詳しく見ていきましょう。
+<br>
+まず、DDL スクリプトを作成します。どのデータベース管理システムにも、DDL スクリプトをエクスポートするツールがあります。
+<br>
+エクスポートされた DDL スクリプトを取得したらそのスクリプトをインポートし InterSystems IRIS でテーブルを作成する ObjectScript コマンドを作成する必要があります。
+<br>
+InterSystems IRIS の最新バージョンでは、DO $SYSTEM.SQL.Schema.ImportDDL() コマンドを使用します。<br>
+続いてメソッドの括弧内に 3 つのパラメータを指定します。最初のパラメータは infile です。インポートする DDL スクリプト・ファイル名のフルパスを記述します。<br>
+DDL スクリプトが MSSQL、Sybase、Informix または MySQL で作成された場合は、infile パラメータはリストで指定します。このリストの最初の要素は DDL スクリプトのパスで、その後に TranslateTable の値が続きます。
+
+2 番目のパラメータとして、エラー・ログ・ファイルのフルパス名を指定する logfile を指定します。インポート中にエラーが発生した場合、エラー・テキストがログ・ファイルに保存されます。このパラメータはオプションでなので何も指定しない場合は、デフォルトで 入力ファイル名_Errors.log の名称でログを保存します。
+<br>
+3 番目のパラメータは DDLMode です。このパラメータには、DDL スクリプトのエクスポートに使用したベンダ (InterSystems IRIS や MySQL など) を入力します。
+<br>
+DDL スクリプトをインポートする正確なコマンドは、使用している InterSystems IRIS のバージョンによって異なります。InterSystems IRIS バージョン 2020.1 またはそれ以前を使用している場合、コマンドは DO $SYSTEM.SQL.DDLImport() で、3 つの必須パラメータと最大 6 つのオプション・パラメータを引数に指定します。
+<br>
+DDLMode は最初のパラメータです。
+<br>
+2 番目のパラメータはもう使用されないので空白のままにしておきます。
+<br>
+次に infile パラメータ（インポートする DDL スクリプト・ファイルのフル・パス名）です。残りのパラメータはオプションであり、必要に応じてこれらを含めることができます。
+<br>
+次は、outfileパラメータで、エラーが報告されるファイルのフルパス名を指定します。
+<br>
+次の 2 つのオプションのパラメータの中の nosup パラメータは、真偽フラグで 1 = TRUE／0 = FALSE のどちらかを指定します。このパラメータを TRUE に設定すると、スクリプトファイルからサポートされていないステートメントが nosupfile に記録されます。
+<br>
+nosupfile は、デフォルトでは [入力ファイル名_Unsupported.log] の名称でファイルが作成されます。nosupパラメータを FALSE に設定するか、デフォルトのままにすると nosupfile は作成されません。
+<br>
+nosupfile パラメータの後に、文末区切り文字を指定するパラメータ DEOS を指定します。これは DDL パーサーに 1 つの行がどこで終わり新しい行がどこで始まるかを指示します。DEOS パラメータのデフォルトは、DDLMode　パラメータで指定されたベンダーに基づいた適切な値になります。
+<br>
+8 番目のパラメータ errpause は、DDL スクリプトの実行中にエラーが発生した場合に InterSystems IRIS が一時停止する秒数です。これが指定されない場合、既定値は 5 秒です。
+<br>
+最後に、runtimemode パラメータは、DDLMode が InterSystems IRIS の場合にのみ適用され、インポートされた文をどの selectmode で実行するかを指定します： ODBC、DISPLAY、または LOGICAL です。デフォルトでは、LOGICAL モードが使用されます。
+<br>
+構文は、使用している InterSystems IRIS のバージョンによって異なりますが、コマンドは常に同じ方法で実行され同じ結果を返します。
+<br>
+InterSystems IRIS Terminal でコマンドを実行します。InterSystems IRIS は、入力ファイルとエラー・ログ・ファイルを返し、インポートされた各 SQL コマンドをリストします。
+<br>
+エラー・ログ・ファイルは、何も書き込まれていなくても作成されます。InterSystems IRIS 2020.1 以前を使用していてパラメータ nosup を TRUE に設定した場合、サポートされていないログ・ファイルが次にリストされます。このログ・ファイルは、何も書き込まれなくても作成されます。
+<br>
+DDLスクリプトをインポートしエラーを解決したらデータベースはデータを受け取る準備ができました。
+<br>
+SQL は ISO/ANSI 標準ですが、独自のコマンドと構文を持つ DDL 言語には多くのバリエーションがあります。InterSystems IRIS 以外からの DDL スクリプトに対応するコマンドの詳細は、InterSystems IRIS ドキュメンテーションの Web サイトを参照してください。
+</div>
+</details>
 
 次に、各言語からのアクセス方法について解説します。
 
