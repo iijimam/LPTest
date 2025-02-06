@@ -389,7 +389,7 @@ InterSystems IRIS は、各種言語からアクセスすることができま�
 このパスの最初に他の SQL データベースからの移行する際よく使用される DDL スクリプトを使用した SQL テーブルを構築する方法について説明します。
 
 {% include youtube.html id="deo8KfS-oeI" %}
-<br>
+
 <details>
 <summary> ▶日本語字幕 </summary>
 <div class="transcript">
@@ -446,122 +446,13 @@ DDLスクリプトをインポートしエラーを解決したらデータベ�
 SQL は ISO/ANSI 標準ですが、独自のコマンドと構文を持つ DDL 言語には多くのバリエーションがあります。InterSystems IRIS 以外からの DDL スクリプトに対応するコマンドの詳細は、InterSystems IRIS ドキュメンテーションの Web サイトを参照してください。
 </div>
 </details>
+<br>
+次に、各言語からのアクセス方法について解説します（別のパスに移動します）。
 
-次に、各言語からのアクセス方法について解説します。
-
-### Connecting Java Applications to InterSystems Products
-
-#### 1. はじめに
-
-あなたの好みの API を使用して、Java アプリケーションを InterSystems IRIS® データプラットフォームやその他のインターシステムズ製品およびテクノロジに接続します。（APIは、JDBC、XEP、Hibernate、Native APを選択できます）
-
-- [ビデオ（英語／日本語字幕あり）Java Overview](https://learning.intersystems.com/course/view.php?name=Java%20Overview)
-
-- [ビデオ（英語）Using a Java Shared Memory Connection](https://learning.intersystems.com/course/view.php?name=Shared%20Memory%20Connection)
-
-#### 2. JDBC経由でテーブルにアクセスする
-
-- [ビデオ（英語／日本語字幕あり）Using JDBC with InterSystems IRIS](https://learning.intersystems.com/enrol/index.php?id=881)
-
-- [ドキュメント：InterSystems IRIS デモ ： JDBC とインターシステムズのデータベース](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_jdbc)
-
-### Connecting Node.js Applications to InterSystems Products
-
-ODBC または InterSystems IRIS® データプラットフォームのNative API を使用して、Node.js アプリケーションを InterSystems® 製品およびテクノロジーに接続できます。
-
-#### 1. はじめに
-Node.js の概要と、InterSystems ODBC ドライバ、および Node.js のネイティブ API について紹介します。
-
-- [ビデオ（英語／日本語字幕あり）Node.js Overview](https://learning.intersystems.com/course/view.php?id=1105)
-
-- [ドキュメント：はじめに ： インターシステムズ・データベースへの ODBC 接続](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BNETODBC_intro)
-
-- [ドキュメント：Native SDK for Node.js の概要](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BJSNAT_intro)
-
-#### 2. ODBC経由でIRISにアクセスする
-
-- [ドキュメント：Node.js リレーショナル・アクセスのサポート](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BNETODBC_support#BNETODBC_support_nodeodbc)
-
-#### 3. Native APIの低レイテンシー機能を利用する
-
-- [体験環境付き演習（英語のみ）：Stock Trading with Node.js](https://learning.intersystems.com/course/view.php?id=2597)
-
-
-### Writing Python Applications with InterSystems
-既存の Python コーディングスキルを活用して、InterSystems® アプリケーションを強化します。
-
-クライアントの Python アプリケーションを接続する方法、InterSystems ObjectScript コードに Python を組み込む方法、あるいは、Python ライブラリの呼び出しに重い処理が必要な場合に別のサーバを使用して呼び出しを最適化する方法について説明します。
-
-#### 事前準備
-Pythonの基本的なコーディング経験があることを前提としています。[Python for Beginers](https://www.python.org/about/gettingstarted/)も併せてご参照ください。
-
-#### 1. はじめに
-InterSystemsのアプリケーションで Python ライブラリを活用する方法をご確認いただけます。
-
-pyodbc を使用して既存の Python アプリケーションを接続したり、Embedded Python を使用して Python と ObjectScript を並行してコーディングすることができます。また、InterSystems Native API または外部言語サーバを使用して、Python で完全な InterSystems アプリケーションを構築することもできます。
-
-[Overview of Python in InterSystems Products (1m)](https://learning.intersystems.com/mod/page/view.php?id=11611)
-
-#### 2. クライアントのPythonアプリケーションからIRISへ接続する
-
-Python アプリケーションをインターシステムズ製品に接続するための最も一般的なオプションである pyodbc の使用方法について説明します。
-
-ドキュメント：[pyodbc Python ODBC ブリッジのサポート](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BNETODBC_support_pyodbc)
-
-
-#### 3. PythonをObjectScriptと並行して実行する
-Embedded Pythonを使用して、ObjectScriptと並行してPythonライブラリを呼び出す方法を解説します。
-
-- [日本語字幕付：What Is Embedded Python?](https://learning.intersystems.com/course/view.php?name=EmbeddedPythonOverview)
-
-- [体験環境付き演習：Embedded Python QuickStart](https://learning.intersystems.com/course/view.php?name=EmbeddedPythonQS)
-
-    ※ビデオは日本語字幕に切り替えができます。
-
-- [体験環境付き演習：Parsing Images and Charting Data with Embedded Python](https://learning.intersystems.com/course/view.php?id=2604)
-
-    同じ内容ではありませんが、サンプルコード付きの日本語記事もあります。
-
-    ✅[Embedded Python を使ってレシート（JPG）の中身を IRIS に登録してみました](https://jp.community.intersystems.com/node/513136)
-
-
-**💡日本語のセルフラーニングビデオのプレイリストはこちら**（記事はこちら[【はじめてのInterSystems IRIS】Embedded Python セルフラーニングビデオシリーズ公開！](https://jp.community.intersystems.com/node/520751)）
-
-- Embedded Python 概要編
-
-    {% include youtube-list.html id="QYbglSZljzs" list="PLzSN_5VbNaxBowDUZQfqL3bvaXpkCMPW2&index=1"%}
-
-- Embedded Python 利用前の準備
-
-    {% include youtube-list.html id="frOsOK_T4UI" list="PLzSN_5VbNaxCqdcK4yiFwzXe041RBtD6V" %}
-
-
-- Embedded Pythonでデータベースプログラミング：SQLアクセス編
-
-    {% include youtube-list.html id="oDgKd5FTq2k" list="PLzSN_5VbNaxDAPjSBe5F-uGbGkoJqcerL" %}
-
-- Embedded Pythonでデータベースプログラミング：オブジェクトアクセス編
-
-    {% include youtube-list.html id="9M_WFS8LPQM" list="PLzSN_5VbNaxBnEb5rq-676b1l7Ym6INjL" %}
-
-- IRISでPythonを使ってみよう（Embedded Python）
-
-    {% include youtube.html id="HFq-IIlejMg" list="PLzSN_5VbNaxBLXlC9oCgwPtxBilT8tJ96" %}
-
-
-#### 4. PythonでInterSystems IRISアプリケーションを構築する
-
-InterSystems Python SDK を使用して、Python から InterSystems IRIS クラスのインスタンスをリモートで作成および操作できます。 また、外部言語サーバを使用して、InterSystems 製品から外部プロセスで実行されている Python コードを呼び出す方法をご確認いただけます。
-
-- [ビデオ（英語）Using the Native API for Python](https://learning.intersystems.com/course/view.php?name=Native%20API%20for%20Python)
-
-- [体験環境付き演習：Embedded Python QuickStart](https://learning.intersystems.com/course/view.php?name=EmbeddedPythonQS)
-
-- [ドキュメント：外部言語の操作](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BEXTSERV_coding)
-
-- [体験環境付き演習：Interacting with Data in Python Using Multiple Data Models](https://learning.intersystems.com/course/view.php?name=PythonMultiModel)
-
-- [ビデオ（英語）：Evaluating Python Development Strategies](https://learning.intersystems.com/course/view.php?id=2063)
+- <a href="JavaApptoISCProducts.html" target="_blank">Java アプリケーションと InterSystems 製品の接続</a>
+- <a href="NodeApptoISCProducts.html" target="_balnk">Node.js アプリケーションと InterSystems 製品の接続</a>
+- <a href="WritingPythonAppWithInterSystems.html" target="_blank">Python アプリケーションと InterSystems 製品の接続</a>
+- <a href="dotNetApptoISCProducts.html" target="_blank">.NET アプリケーションと InterSystems 製品の接続</a>
 
 ---
 ## 6. <img src="./assets/icons/6-APIManagement.png" width="70%"/>

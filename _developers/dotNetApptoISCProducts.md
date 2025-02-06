@@ -1,5 +1,5 @@
 ---
-title: .NETアプリケーションとInterSystems製品の接続
+title: .NET アプリケーションと InterSystems 製品の接続
 date: 2024-12-12
 permalink: dotNetApptoISCProducts.html
 layout: post

@@ -34,7 +34,7 @@ JDBC、XEP、Hibernate、Native SDK を使用して、Javaアプリケーショ�
 
 各 API の利点を確認し、Javaアプリケーションを InterSystems 製品に接続するための方法を確認します。
 
-✅ ビデオ：Using Java to Connect to InterSystems IRIS（英語／日本語字幕付き）
+✅ ビデオ：Java overview（英語／日本語字幕付き）
 
  {% include youtube.html id="8prvxy1Gn8s" %} 
 
@@ -71,10 +71,7 @@ JDBC、XEP、Native API、Hibernate といったさまざまなオプション�
 </details>
 
 <br>
-✅ [オンラインコース（英語）：Designing a Java Connection Strategy](https://learning.intersystems.com/course/view.php?name=Java%20Connection%20Strategy)
-
-<br>
-✅ [ビデオ：Using a Java Shared Memory Connection（英語）](https://learning.intersystems.com/course/view.php?name=Shared%20Memory%20Connection)
+✅ <a href="https://learning.intersystems.com/course/view.php?name=Shared%20Memory%20Connection" target="_blank">ビデオ：Using a Java Shared Memory Connection（英語）</a>
 
 <details>
 <summary> ▶日本語字幕 </summary>
@@ -105,13 +102,17 @@ TCP/IP接続とは対照的に、共有メモリ接続を使用した場合の�
 InterSystems IRIS のインスタンスを実行しておりそのインスタンスに Java アプリケーションを接続している場合、同じマシン上でアプリケーションを実行することで共有メモリ接続を使用してアプリケーションのパフォーマンスを向上させることができます。
 </div>
 </details>
+<br>
+> **英語ですが、オンラインコースもあります**
+>- <a href="https://learning.intersystems.com/course/view.php?name=Java%20Connection%20Strategy" target="_blank">Designing a Java Connection Strategy</a>
+{: .block-tip}
 
 ---
 ## 2. <img src="./assets/icons/Java2.png" width="70%"/>
 
 SQL ベースのリレーショナル・テーブルへのアクセスには JDBC API を使用できます。
 
-✅ [ビデオ：Using JDBC with InterSystems IRIS（英語／日本語字幕付き）](https://learning.intersystems.com/course/view.php?name=JDBC%20and%20InterSystems%20IRIS)
+✅ <a href="https://learning.intersystems.com/course/view.php?name=JDBC%20and%20InterSystems%20IRIS" target="_blank">ビデオ：Using JDBC with InterSystems IRIS（英語／日本語字幕付き）
 
 <details>
 <summary> ▶日本語字幕 </summary>
@@ -156,7 +157,7 @@ IRISDataSource() を使用して、InterSystems IRIS に接続します。他の
 </details>
 
 <br>
-✅ [ドキュメント：JDBC とインターシステムズのデータベース](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_jdbc)
+✅ <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_jdbc" target="_blank">ドキュメント： JDBC とインターシステムズのデータベース</a>
 
 ---
 ## 3. <img src="./assets/icons/Java3.png" width="70%"/>
