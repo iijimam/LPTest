@@ -26,12 +26,12 @@ layout: post
 
 このパスの他に、以下講師付きクラスルームトレーニングコースの受講を推奨いたします。
 
-- [InterSystems SQL](https://www.intersystems.com/jp/intersystems-sql/)
-- [InterSystems Object](https://www.intersystems.com/jp/intersystems-object/)
+- <a href="https://www.intersystems.com/jp/intersystems-sql/" target="_blank">InterSystems SQL</a>
+- <a href="https://www.intersystems.com/jp/intersystems-object/" target="_blank">InterSystems Object</a>
     - このコースは**ObjectScriptを学習するコースではありません。**
     - InterSystems製品でオブジェクト指向プログラミングを行う方法、また永続クラス定義の作成、オブジェクト操作方法を学習するためのコースです。
-- [InterSystems Server システム管理1](https://www.intersystems.com/jp/intersystems-server-system-administration/)
-- [InterSystems Server システム管理2：セキュリティ管理編](https://www.intersystems.com/jp/intersystems-server-system-administration-2/)
+- <a href="https://www.intersystems.com/jp/intersystems-server-system-administration/" target="_blank">InterSystems Server システム管理1</a>
+- <a href="https://www.intersystems.com/jp/intersystems-server-system-administration-2/" target="_blank">InterSystems Server システム管理2：セキュリティ管理編</a>
 
 
 ---
@@ -39,7 +39,7 @@ layout: post
 
 ## 1. <img src="./assets/icons/1-IRIS.png" width="70%"/>
 
-InterSystems IRIS®データ・プラットフォームは、信頼性の高い統一プラットフォームで、重要なアプリケーションを迅速に開発・デプロイすることを可能にします。
+InterSystems IRIS®データ・プラットフォームは、信頼性の高い統一プラットフォームで重要なアプリケーションを迅速に開発・デプロイすることを可能にします。
 
 - InterSystems IRISとは（日本語字幕入りビデオ）
 
@@ -124,10 +124,11 @@ InterSystems IRIS は統合データベース プラットフォームであり�
 ビジネスを前進させるアプリケーションを構築するのであれば、InterSystems IRIS 上での構築をお勧めします
 </div>
 </details>
-
+> **※ NLPについての説明が含まれますが、この機能はバージョン2023.3以降の製品には含まれなくなりました。現在は<a href="https://github.com/intersystems/iknow/" target="_blank">オープンソース版</a>を公開しています。** 
+{: .block-warning}
 <br>
 
-> **もう少し詳しく確認されたい方は約30分の以下ビデオをご参照ください。**
+> **IRIS概要についてもう少し詳しく確認されたい方は約30分の以下ビデオをご参照ください。**
 >- InterSystems IRIS データプラットフォームのご紹介    
 {: .block-warning}
 {% include youtube-list.html id="vo12UnH-c-s" list="PLzSN_5VbNaxD-r8wU4LHwLwGSzUjrffEX" %}
