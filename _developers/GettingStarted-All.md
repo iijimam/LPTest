@@ -684,7 +684,11 @@ InterSystems API Manager を使用して、InterSystems IRIS® data platform 内
 
 InterSystems IRIS に組み込まれた InterSystems IRIS Business Intelligence は、ほぼリアルタイムの分析を提供します。
 
-このデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。レポート作成に関するリソースは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reports-でデータを視覚的に提供する)のセクションを参照してください。
+InterSystems BI では、IRIS にあるデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。
+
+この他、レポート作成に関する機能も提供しています。詳しくは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reports-でデータを視覚的に提供する)のセクションを参照してください。
+
+さらに、IRIS には　SQL コマンドを使用して予測モデルを構築、学習、実行するのできる Auto ML の機能も含まれています。詳しくは、[「InterSystems IRIS の IntegratedMLによる予測」](#intersystems-iris-の-integratedml-による予測)のセクションを参照しください。
 
 ---
 
@@ -908,11 +912,11 @@ InterSystems IRIS® data platform の機能である IntegratedML を使用す�
 <br>
 機械学習は、あなたのアプリケーションがより良い結果を生み出すのに役立つと思いますが、手元にデータサイエンティストのチームがない場合あなたのためのソリューションがここにあります。
 <br>
-InterSystems IRIS data platform 内の Integrated ML は、データサイエンスの専門知識に関係なく、SQL の熟練した開発者がアプリケーション内で機械学習を利用することを可能にします。
+InterSystems IRIS data platform 内の IntegratedML は、データサイエンスの専門知識に関係なく、SQL の熟練した開発者がアプリケーション内で機械学習を利用することを可能にします。
 <br>
-Integrated MLを使用することで、開発者は使い慣れた SQL 構文を使用して機械学習モデルの作成、学習、実行、検証を行うことができます。
+IntegratedMLを使用することで、開発者は使い慣れた SQL 構文を使用して機械学習モデルの作成、学習、実行、検証を行うことができます。
 <br>
-目の前にある膨大な量のデータを活用し始める準備が整いましたら、InterSystems IRIS data platform の Integrated ML をお試しください。
+目の前にある膨大な量のデータを活用し始める準備が整いましたら、InterSystems IRIS data platform の IntegratedML をお試しください。
 </div>
 </details>
 
@@ -934,9 +938,9 @@ Integrated MLを使用することで、開発者は使い慣れた SQL 構文�
 
 <br>
 
-✅ Integrated ML 紹介ビデオ
+✅ IntegratedML 紹介ビデオ
 
-- Integrated ML のご紹介～InterSystems IRISのAutoMLご紹介～
+- IntegratedML のご紹介～InterSystems IRISのAutoMLご紹介～
 
     {% include youtube.html id="PFiqENE1uKA" %}
 
