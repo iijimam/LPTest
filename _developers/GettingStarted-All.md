@@ -957,11 +957,63 @@ Integrated MLを使用することで、開発者は使い慣れた SQL 構文�
 ---
 ### InterSystems Reports でデータを視覚的に提供する
 
-InterSystems IRIS® data platform、InterSystems IRIS® for Health、HealthShare® でレポートを作成、カスタマイズ、表示するには、InterSystems Reports を使用します。
+InterSystems IRIS® data platform、InterSystems IRIS® for Health、HealthShare® でレポートを作成、カスタマイズ、表示するには InterSystems Reports を使用します。
 
-- [ビデオ（英語）:Introduction to InterSystems Reports](https://learning.intersystems.com/enrol/index.php?id=1444)
+- ビデオ（英語）:Introduction to InterSystems Reports
 
     Logi Analytics が提供する InterSystems Reports は、データのビジュアルレポートを迅速に作成・表示できるレポート作成ツールです。このビデオでは、InterSystems Reports とそのコア・コンポーネントを紹介します。より詳細な情報については、Logi Report のドキュメントをご覧ください。
+
+    {% include youtube.html id="B1UnUsDt90E" %}
+
+<details class="transcript2">
+<summary> ▶日本語字幕 </summary>
+<div class="content">
+Logi Analytics が提供する InterSystems Reports は、InterSystems IRIS data platform に統合されたレポーティング・ソリューションです。
+<br>
+InterSystems Reports は、Zen レポートと並行して実行できるので、新しいレポーティング・ソリューションを現在の環境に導入することができます。
+<br>
+InterSystems Reports は、Java Database Connectivity (JDBC) を使用して InterSystems IRIS data platform に接続し、レンダラーなしで PDF やその他のファイルフォーマットを生成します。
+<br>
+InterSystems Reports には、ストアドプロシージャ、またはカスタマイズされたデータベースクエリを呼び出す機能が組み込まれていて、SQL または ObjectScript で開発できます。
+<br>
+必要に応じて、ストアド・プロシージャは、InterSystems IRIS データへのアクセスを容易にし、データ検索を最適化することができます。
+<br>
+Zen レポート内の既存のストアド・プロシージャや SQL クエリをデータ・ソースとして再利用することができ、レポートのレイアウトを再構成するだけで済みます。
+<br>
+InterSystems Reports は、サーバとデザイナの 2 つの部分で構成されます。
+<br>
+サーバは、InterSystems Reports テクノロジを使用してレポートを表示または印刷する任意の場所にインストールできます。
+<br>
+サーバは、あらゆる Java Enterprise Edition アプリケーション・プラットフォーム上で動作する高性能なレポート生成エンジンであり、Windows と UNIX の両方でサポートされています。
+<br>
+レポートを生成するために、サーバは、ブラウザベースのアプリケーションからレポートの要求を受け取り、データにアクセスし、データをビジュアルなフォーマットにし、要求しているフロントエンド・アプリケーションに返します。
+<br>
+レポートは、HTML、PDF、XML、RTFなど、さまざまな形式で作成できます。
+<br>
+InterSystems Reports の 2 番目のコンポーネントはデザイナーです。デザイナーは、新しいビジュアル・テンプレートを作成するスペースを提供するデスクトップ・アプリケーションであり、様々なグラフィカル・フォーマットで簡単にデータを表示することができます。これにより、コードを記述することなく、レポートのレイアウト、書式設定、プレビューを迅速に行うことができます。
+<br>
+デザイナーには、レポートを作成しデータの表示を最適化するのに役立ついくつかのオプションとウィザードが用意されています。
+<br>
+デザイナーでレポートを確認しながら作業を進めることができます。
+<br>
+グループ化、サマリー、数式、画像、その他の要素を追加できます。
+<br>
+デザイナーをインストールする必要があるのは、新しいレポート・テンプレートをデザインする場合のみで、既存のレポートを実行する場合は必要ありません。
+<br>
+それでは、サーバとデザイナの両方を使用してレポートを作成・設計するプロセス全体を見てみましょう。
+<br>
+InterSystems IRIS からレポートを要求します。
+<br>
+InterSystems Reports サーバは、データを収集するために InterSystems IRIS に接続します。そして、このデータを取得し、デザイナーを使用して作成されたレポート・テンプレートの仕様を使用してビジュアル・レポートにまとめます。
+<br>
+レポートは定期的にスケジューリングされ、電子メールで配信されるか、ファイルにパブリッシュされます。
+<br>
+許可があれば、エンドユーザはレポートテンプレートに小さな修正を加えることができます。特定のニーズに合わせてフィールドを削除したり、ビジュアルフォーマットを変更したりできます。このような変更は保存することができ、将来のレポートはこのような変更を加えた状態で配信されます。
+<br>
+InterSystems Reports を使用することで、視覚的に魅力的で理解しやすいレポートを作成することがかつてないほど簡単になりました。
+</div>
+</details>
+<br>
 
 - <a href="https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GISR_server" target="_blank">ドキュメント：InterSystems Reports Serverの設定</a>
 
@@ -969,48 +1021,131 @@ InterSystems IRIS® data platform、InterSystems IRIS® for Health、HealthShare
 
 - <a href="https://learning.intersystems.com/course/view.php?name=GettingStartedInterSystemsReports" target="_blank">演習環境付き演習（英語）:Getting Started with InterSystems Reports</a> 
 
-    [PDF](https://learning.intersystems.com/course/view.php?name=GettingStartedInterSystemsReports)
+    [演習のPDF](https://learning.intersystems.com/pluginfile.php/37146/mod_resource/content/4/ISCReports_ExerciseGuide.pdf)
 
-- [ビデオ（英語）：Introduction to InterSystems Reports Designer](https://learning.intersystems.com/course/view.php?id=2505)
+- <a href="https://learning.intersystems.com/course/view.php?id=2505" target="_blank">ビデオ（英語）：Introduction to InterSystems Reports Designer</a>
+
 
 ---
-### アダプティブ・アナリティクスによるデータモデルの構築
+### Adaptive Analytics によるデータモデルの構築
 
-InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用し、Tableau、Excel など、既にお使いのテクノロジーとシームレスに統合することで、セルフサービス型のデータディスカバリー・アナリティクス機能を提供します。
+InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用し Tableau、Excel など既にお使いのテクノロジーとシームレスに統合することで、セルフサービス型のデータディスカバリー・アナリティクス機能を提供します。
 
 このパスでは、インストールから最初のデータモデルの作成まで、最初の一歩を踏み出す方法をご紹介します。
+
 - ビジネスインテリジェンスにおけるキューブ入門
 
     {% include youtube.html id="xgAdwTy_q1Q" %}
 
-- [ビデオ（英語）:InterSystems IRIS Adaptive Analytics Overview](https://learning.intersystems.com/course/view.php?id=1754)
+<br>
+
+- InterSystems IRIS Adaptive Analytics のご紹介
 
     {% include youtube-list.html id="8j6iqmT13XI" list="PLzSN_5VbNaxBlWFxRfrrrScerJrpo7xjr&index=3" %}
 
-- [日本語ドキュメント:InterSystems IRIS Adaptive Analytics](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AADAN)
+- <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AADAN" target="_blank">日本語ドキュメント:InterSystems IRIS Adaptive Analytics</a>
 
-- [オンラインコース（英語）：InterSystems IRIS Adaptive Analytics Essential](https://learning.intersystems.com/course/view.php?name=AdaptiveAnalyticsEssentials)
+- <a href="https://learning.intersystems.com/course/view.php?name=AdaptiveAnalyticsEssentials" target="_blank">オンラインコース（英語）：InterSystems IRIS Adaptive Analytics Essential</a>
 
 
 ---
 ## 8. <img src="./assets/icons/8-performance.png" width="70%"/>
 
-アプリケーションのパフォーマンスを必要なだけ確保するためには、高性能なインジェストツールでシステムを構成するだけでなく、大量かつ高速なインジェストのためにシャーディングを設定し、フェイルオーバーのためにミラーリングを設定する必要があります。このセクションでは、これらの推奨事項の多くについて説明する。
+アプリケーションのパフォーマンスを必要なだけ確保するためには、高性能なインジェストツールでシステムを構成するだけでなく、大量かつ高速なインジェストのためにシャーディングを設定し、フェイルオーバーのためにミラーリングを設定する必要があります。
 
-- [ビデオ（英語）:InterSystems IRIS Speed Test: High-Volume Ingestion](https://learning.intersystems.com/enrol/index.php?id=1545)
+以下、上記に挙げた機能じついての推奨事項をご説明します。
 
-    InterSystems IRIS®データ・プラットフォームの新しいオープン・ソース・ハイブリッド・トランザクション／アナリティカル・プロセッシング（HTAP）スピード・テスト・デモの使用方法をご紹介します。InterSystems IRIS が、リアルタイムのアプリケーション・クエリに答えながら、いかに大量のデータを取り込むことができるかをご覧いただけます。このビデオでは、HTAPスピードテストを使って、InterSystems IRISのパフォーマンスをMySQLやSAP HANAなどの他のデータベースと比較する方法を紹介しています。
+- <a href="https://learning.intersystems.com/enrol/index.php?id=1545" target="_blank">ビデオ（英語）:InterSystems IRIS Speed Test: High-Volume Ingestion</a>
 
-- [ビデオ（英語）：Identifying the Benefits of Mirroring and High Availability](https://learning.intersystems.com/course/view.php?id=2338)
+    InterSystems IRIS® data platform の新しいオープン・ソース・ハイブリッド・トランザクション／アナリティカル・プロセッシング（HTAP）スピード・テスト・デモの使用方法をご紹介します。
+    
+    InterSystems IRIS が、リアルタイムのアプリケーション・クエリに答えながら、いかに大量のデータを取り込むことができるかをご覧いただけます。
+    
+    このビデオでは、HTAP スピードテストを使って、InterSystems IRIS のパフォーマンスを MySQL や SAP HANA などの他のデータベースと比較する方法を紹介しています。
 
-- [ビデオ（英語／日本語字幕付き）：Introduction to Sharding in InterSystems IRIS](https://learning.intersystems.com/course/view.php?id=2560)
+- <a href="https://learning.intersystems.com/course/view.php?id=2338" target="_blank">ビデオ（英語）：Identifying the Benefits of Mirroring and High Availability</a>
 
-- [ビデオ（英語／日本語字幕付き）：Planning and Deploying a Sharded Cluster](https://learning.intersystems.com/course/view.php?id=2586)
+- <a href="https://learning.intersystems.com/course/view.php?id=2560" target="_blank">ビデオ（英語／日本語字幕付き）：Introduction to Sharding in InterSystems IRIS
 
-- [ビデオ（英語）：Finding and Fixing Slow SQL Queries](https://learning.intersystems.com/course/view.php?id=2422)
+- <a href="https://learning.intersystems.com/course/view.php?id=2586" target="_blank">ビデオ（英語／日本語字幕付き）：Planning and Deploying a Sharded Cluster</a>
 
-- [体験環境付き演習（英語）：Optimizing SQL Queries in InterSystems IRIS](https://learning.intersystems.com/course/view.php?id=2533)
+- ビデオ（英語）：Finding and Fixing Slow SQL Queries
+
+    {% include youtube.html id="3ZMNNABfCSY" %}
+
+<details class="transcript2">
+<summary> ▶日本語字幕 </summary>
+<div class="content">
+このビデオでは、遅い SQL クエリを特定し改善するプロセスを説明します。重要なのは遅いクエリが必ずしも問題であるとは限らないということ、そして速度は相対的なものであるということです。例えば、1 日 1 回実行され実行に 2 秒かかり大規模なサマリーレポートを生成するクエリは十分に速いと考えられるでしょう。
+<br>
+しかし、2 秒のクエリがメイン・ユーザー・インターフェースの重要な部分で 1 分間に 100 回実行されるのであれば、その効率を高めることができるかどうかよく検討する価値があります。
+<br>
+私たちのシステムでは、100 万行の株式取引データがあり各行が 1 つのトランザクションを表しています。私たちのシステムは、主にこの株式データに対して SQL クエリーを実行し、ダッシュボードを最新の状態に保つために使用されています。
+<br>
+最近、ユーザーからダッシュボードの更新が遅いという報告がありました。
+<br>
+この問題の原因となっているクエリを見つけるために、User ネームスペースで実行されているすべての SQL 文を調べます。SQL エクスプローラで [SQL 文] タブをクリックし、現在のネームスペース内のすべての SQL 文を表示します。
+<br>
+どのクエリの実行が遅いかを知りたいのでフィルタを追加して、そのテーブルで実行されているクエリだけを表示します。これにより、このテーブル上のすべてのクエリの実行回数、平均時間、合計時間などの詳細を見ることができます。合計時間でソートすると、どのクエリに最も時間がかかっているかがわかります。
+<br>
+ここでは、1 日に約 60 回実行されるクエリの合計時間が 106.5 秒であることがわかります。
+<br>
+これは、システムがこのクエリを実行するのに合計 106.5 秒を費やしたことを意味します。ここで、速度の相対性が重要になります。この場合このクエリの実行頻度を考慮すると合計時間は長いです。Data.StockData というテーブル名をクリックして、このクエリを詳しく見てみましょう。
+<br>
+このクエリーは、各銘柄について実行された売り取引の数を最新に集計しこの集計はメイントレーダーのダッシュボードで 5 秒ごとに更新されます。
+<br>
+代表的なデータでこのクエリーをテストシステムで実行すると、実行に 2 秒近くかかります。この問題を引き起こしているクエリを特定したので、そのクエリの実行速度を遅くしている原因を突き止めましょう。
+<br>
+遅いクエリを修正する場合、最初のステップは常にクエリ・プランを確認することです。InterSystems SQL クエリ・オプティマイザは、現在利用可能な情報で可能な限り効率的に実行されるようにクエリを自動的に処理します。
+<br>
+このプロセスの一環として、クエリオプティマイザは、クエリのフィルタ、集約、およびその他の処理を処理するための複数のプランを生成します。クエリオプティマイザは、テーブルの統計情報に基づいてそれらのコストを推定し実行時に最も効率的なプランを選択します。
+<br>
+クエリプランを見ることで、テーブルとインデックス構造をどのようにスキャンするかを確認することができます。これは、どのステップに最も時間がかかりクエリを遅くしているかを特定するのに役立ちます。この情報に基づいて、インデックスの追加や並列処理など効率を改善するための調整を行うことができます。
+<br>
+SQL エクスプローラからクエリプランを表示するには、クエリを入力し、[プラン表示] をクリックします。
+<br>
+ご覧のように、このクエリを実行する最初のステップは、ID をループしてマスターマップを読み取ることです。マスターマップは標準テーブルの主要なデータ構造で個々の行を 1 つずつ格納しています。この構造を ID でループしているので、クエリを実行する最初のステップは、テーブルのすべての行からデータを読み取ることです。行数の多いテーブルに対してこのようなマスターマップスキャンを行うクエリプランは非効率的です。
+<br>
+このテーブルには 100 万行以上のデータがあるため、マスターマップを読み込むのは非常に非効率的です。このプランを改善するためにクエリを調整する必要があります。
+<br>
+変更を加える前に、クエリオプティマイザが最新のテーブル統計情報を使用していることを確認しましょう。行数などの統計情報は、どのプランが最も効率的かを判断するのに役立ちます。これを確認するには、テーブルを選択します。次に、[アクション] メニューから [テーブルチューニング情報] をクリックします。
+<br>
+現在の ExtentSize（行数）はデフォルトの 100,000 に設定されています。これは、このテーブルの統計情報がまだ収集されていないことを示し、クエリ・オプティマイザは、このテーブルがかなり小さいテーブルであり、フル・テーブル・スキャンにそれほどコストがかからないと想定しています。テーブルの統計情報を収集するには、[テーブルチューニング] をクリックします。最近の製品バージョンでは、ほとんどの通常のテーブル構造についてテーブル統計が少なくとも 1 回は自動的に収集されます。ExtentSize は、テーブルのサイズがわかっていれば簡単に再確認できる統計情報です。
+<br>
+クエリオプティマイザが最新のテーブル統計を持っていることを確認できたので、クエリプランを再確認してみましょう。
+<br>
+プランは複数のモジュールで構成され、それぞれのモジュールが個別のアクションセットを実行します。モジュールは互いに呼び合い複数回呼び出されるものもあります。このモジュールはマスターマップを分割し、各分割に対して並列にモジュール A を呼び出します。
+<br>
+この特定の問い合わせ計画は、並列化の新しい方法である Adaptive Parallel 実行を使用しています。旧バージョンの製品では、並列化されたクエリプランは少し異なって見えます。
+<br>
+クエリを再度実行すると、並列化によってクエリ時間が短縮されていることがわかります。しかし、クエリプランはまだマスターマップの読み込みと ID のループを含んでいます。
+<br>
+理想的には、読み込むデータ量を減らすためにインデックスを使用することです。場合によっては、期待したときにインデックスが使用されないことがあります。そのような場合は、インデックスが存在し、選択可能であることを確認してください。インデックスの構築中、あるいはインデックスの構築に失敗した後、インデックスが無効になっている可能性があります。
+<br>
+テーブルにインデックスがあるかどうかを確認するには、SQL エクスプローラでテーブルを選択しカタログの詳細タブをクリックしてマップ/インデックスを選択します。
+<br>
+まだインデックスが設定されていないので、次のステップではインデックスを追加します。さまざまなインデックスや変更を試してみると、テーブルの挿入、更新、削除操作のパフォーマンスに影響を与える可能性があることに注意することが重要です。また、インデックスはストレージのコストにもなるため、慎重に追加する必要があります。可能であれば、まず代表的なデータを持つテストシステムで変更を行い、本番システムで変更を実施する前に何が最も効果的であるかを確認してください。
+<br>
+ここでは、テストシステムにインデックスを追加します。このクエリには、トランザクションタイプと日付の 2 つの WHERE 条件が含まれています。テーブルの約半数の行がトランザクションタイプ「SELL」を持っていると予想されますが、検索対象の日付を持つ行の数はもっと少ないはずです。そのため、トランザクションの日付にインデックスを追加し、クエリがより少ない行を読み込めるようにします。
+<br>
+このインデックスを作成するには、create indexコマンドを実行します。このコマンドは自動的にインデックスも作成します。
+<br>
+クエリプランをもう一度見てみましょう。最初のモジュール F は、クエリを並列に実行できるようにマスターマップをサブ範囲に分割します。モジュール F はモジュール A を呼び出し、モジュール B の結果を保持する temp ファイルを作成します。モジュール B は、先ほど作成したインデックスを読み込んで、一致するトランザクション日を持つ行の ID を見つけ、マスターマップからそれらの行だけを読み込みます。
+<br>
+クエリを再度実行すると、実行時間が 1 秒以下に短縮されていることがわかります。
+<br>
+Tune Table の実行とインデックスの追加は、このクエリの効率に大きな影響を与えましたが他にも検討すべきオプションがあります。
+<br>
+1 つのオプションは、SQL オプティマイザで様々なプランのパフォーマンスを比較することです。これらを表示するには、SQL エクスプローラのツールメニューから Alternate Show Plans を選択します。ここで、最適化しようとしているクエリを入力し可能なクエリプランを表示することができます。選択したクエリプランに特定のインデックスが期待通りに含まれていない場合、これらのプランの性能をテストすることは特に有用です。そのインデックスを使用するクエリプランを選択して試すことができそのパフォーマンスを確認することができます。
+<br>
+考慮すべきもう 1 つのオプションは並列処理です。私たちの場合、テーブルチューニング（Tune table）ユーティリティを実行した後、クエリはすでに自動的に並列化されていました。InterSystems IRIS は、大量のデータにアクセスするクエリに対してデフォルトでこの処理を行います。並列化された実行は、複数のプロセスに作業を分散し全体の実行時間を短縮することでクエリのパフォーマンスを向上させます。システムによっては、このAutoParallel設定が無効になっていたりこの設定が行われる閾値が高すぎる場合があります。この場合、%PARALLEL ヒントを使用して、オプティマイザに並列化するように指示することができます。
+<br>
+どのような変更を行うかが決まったら、適切な手順で稼働停止を最小限に抑えながら実稼働システム上でその変更を推進することができます。
+</div>
+</details>
+<br>
+- <a href="https://learning.intersystems.com/course/view.php?id=2533" target="_blank">体験環境付き演習（英語）：Optimizing SQL Queries in InterSystems IRIS</a>
 
     トレーニングコースで同様の内容をご確認いただけます。
 
-    ✅対応するコース：[InterSystems SQL](https://www.intersystems.com/jp/intersystems-sql/)
+    ✅対応するコース：<a href="https://www.intersystems.com/jp/intersystems-sql/" target="_blank">InterSystems SQL</a>
