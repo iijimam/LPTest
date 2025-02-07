@@ -24,6 +24,7 @@
 .details-summary {
    font-weight: bold;
    /*color:rgb(147, 193, 234);*/
+   max-height: 38px;
    margin-top: 10px;
    margin-bottom: 5px;
    font-size: 1.6rem;
@@ -45,3 +46,22 @@
    font-size: 1.4rem;
    /*text-transform: uppercase; */
 }
+
+.transcript2 details {
+   max-height: 38px;
+   transition: all 1s;
+   overflow: hidden;
+ }
+ 
+ .transcript2 details[open] {
+   max-height: 300px;
+ }
+ .transcript2 .content {
+   max-height: 262px;
+   overflow-y: scroll;
+   color:teal;
+   margin-top: 10px;
+   margin-bottom: 5px;
+   font-size: 1.4rem;
+   /*text-transform: uppercase; */
+ }
