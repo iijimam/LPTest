@@ -17,15 +17,13 @@ InterSystems IRIS® data platform の利用可能なツールや InterSystems IR
 
 [3. <img src="./assets/icons/3-integration.png" width="40%"/>](#3-)
 
-[4. <img src="./assets/icons/4-custom.png" width="40%"/>](#4-)
+[4. <img src="./assets/icons/5-access-multilanguage.png" width="40%"/>](#5-)
 
-[5. <img src="./assets/icons/5-access-multilanguage.png" width="40%"/>](#5-)
+[5. <img src="./assets/icons/6-APIManagement.png" width="40%"/>](#6-)
 
-[6. <img src="./assets/icons/6-APIManagement.png" width="40%"/>](#6-)
+[6. <img src="./assets/icons/7-Analytics.png" width="40%"/>](#7-)
 
-[7. <img src="./assets/icons/7-Analytics.png" width="40%"/>](#7-)
-
-[8. <img src="./assets/icons/8-performance.png" width="40%"/>](#8-)
+[7. <img src="./assets/icons/8-performance.png" width="40%"/>](#8-)
 
 
 このパスの他に、以下講師付きクラスルームトレーニングコースの受講を推奨いたします。
@@ -290,6 +288,14 @@ InterSystems Learning Services では、業界標準の認定試験を提供し�
 ---
 ## 3. <img src="./assets/icons/3-integration.png" width="70%"/>
 
+以下 3 種類の内容を学習できます。
+
+- [InterSystems Interoprability(相互運用性機能)](#intersystems-interoperability相互運用性機能)
+- [RESTful サービスの設定](#restfulサービスの設定)
+- [PEXについて](#pexについて)
+
+### InterSystems Interoperability(相互運用性機能)
+
 InterSystems 製品の Interoperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し下流のアプリケーションにメッセージを迅速にルーティングすることができます。
 
 このパスでは、インテグレーションの基本を学び組み込みオプションとカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認します。
@@ -339,50 +345,77 @@ InterSystems 製品の Interoperability(相互運用性)フレームワークに
 >    >メモ：変換データとしてHL7を使用しています。
 {: .block-tip}
 
----
-## 4. <img src="./assets/icons/4-custom.png" width="70%"/>
-FHIR® HL7® V2 コンポーネントなど、多くのビルド済みビジネスコンポーネントが開発者に提供されています。
+### RESTfulサービスの設定
 
-これだけでは不十分な場合は、カスタムコンポーネントを構築して、データの取り込み方法を完全にカスタマイズすることができます。
+InterSystems IRIS® data platform で RESTful サービスをセットアップする方法をご紹介します。
 
-- Interoperability メニューで使用するカスタムメッセージクラス作成方法
+- IRIS で作成する REST サーバの仕組みを解説します。
 
-    ✅ 関連記事：<a href="https://jp.community.intersystems.com/node/483131" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：メッセージ</a>
-
-    {% include youtube.html id="K6jAqSpnaXY"%}
-
+    {% include youtube-list.html id="tWP_9-jk4no" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ&index=7" %}
 <br>
-- <a href="https://jp.community.intersystems.com/node/483136" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・オペレーション）</a>
+- 手動で作成するディスパッチクラスの作成方法を解説しています。
 
-- <a href="https://jp.community.intersystems.com/node/483186" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・サービス）</a>
-
-    アダプタを使用しないビジネス・サービスを直接呼び出す例として REST 経由でのアクセス方法があります。以下、IRIS で REST サーバを作成する方法を解説している関連記事とビデオです。
-
-    ✅ 記事： <a href="https://jp.community.intersystems.com/node/479551" target="_blank">【はじめてのInterSystems IRIS】セルフラーニングビデオ：アクセス編：（REST）手動で作成するディスパッチクラス</a>
-
-    ✅ 関連記事：<a href="https://jp.community.intersystems.com/node/559356" target="_blank">REST経由で情報を入力する場合の Interoperability（相互運用性機能）のサンプル</a>
-
-    {% include youtube-list.html id="q3XVT98_05I" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %}
-
+    {% include youtube-list.html id="q3XVT98_05I" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ&index=8" %}
 <br>
 
+- APIファーストによるRESTディスパッチクラスの作成方法を解説しています。
+    {% include youtube-list.html id="SwquEq1fjTk" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ&index=9" %}
+<br>
 >**英語のみとなりますが、以下のオンラインコースもあります。**
->- <a href="https://learning.intersystems.com/course/view.php?name=Building%20Custom%20Business%20Operations" target="_blank">オンラインコース（英語）：Building Custom Business Operations</a>
 >
->- <a href="https://learning.intersystems.com/course/view.php?id=2574" target="_blank">オンラインコース（英語）：Building Custom Business Services (1h 30m)</a>
+> InterSystems IRIS® data platform で RESTful サービスをセットアップする方法をご紹介します。 API 仕様から始めて、API のバックエンド・ロジックを生成して実装します。 クライアント・アプリケーションを使用して RESTful サービスを呼び出す方法、RESTful サービスを相互運用性プロダクションにアタッチする方法、および API トラフィックをモニターして制御する方法を確認できます。
 >
->- <a href="https://learning.intersystems.com/course/view.php?name=REST%20Services" target="_blank">オンラインコース（英語）：Setting Up RESTful Services</a>
->
->    APIファーストのステップで作る Coffee Maker API
->- <a href="https://learning.intersystems.com/enrol/index.php?id=1716" target="_blank">ビデオ（英語）What is PEX?</a>
->
->    Production EXtension フレームワーク (PEX) を使用すると、ObjectScript を学習することなく .NET または Java でカスタム相互運用性コンポーネントを構築できます。PEX を使用すると使い慣れた言語でコーディングし確立されたコードライブラリを活用してプロダクションにコンポーネントを追加できます。
->
->   PEX を使用してプロダクションを構築する方法については、オンラインコース（英語）<a href="https://learning.intersystems.com/course/view.php?name=PEXInteroperabilityProductions" target="_blank">「Creating Interoperability Productions Using PEX」（1 時間）</a>を受講してください。
+> <a href="https://learning.intersystems.com/course/view.php?id=2549" target="_blank">Setting Up RESTful Services</a>
 {: .block-tip}
 
+### PEXについて
+
+Production EXtension フレームワーク (PEX) を使用すると、ObjectScript を学習することなく、.NET または Java でカスタム相互運用性コンポーネントを構築できます。
+
+PEX を使用すると使い慣れた言語でコードを記述でき、確立されたコードライブラリを活用してプロダクションにコンポーネントを追加できます。
+
+{% include youtube.html id="hZnvMlXU5Og"%}
+
+<details class="transcript2">
+<summary> ▶日本語字幕 </summary>
+<div class="content">
+プロダクション拡張フレームワーク (PEX) は、InterSystems IRIS data platform に組み込まれた機能で選択した言語での相互運用性プロダクションでカスタム・ビジネス・コンポーネントを作成できます。
+<br>
+PEX は、InterSystems IRIS に含まれる多くの言語相互運用性機能の 1 つです。他の機能には、JDBC と ODBC、Python、.NET、Java、Node.JS の Native API クライアント・ライブラリがあります。
+<br>
+PEXを使用すれば、.NET や Java などの言語ライブラリを参照し使い慣れた言語で開発を続けることができます。
+<br>
+カスタム・コードは、PEX 機能を使用して InterSystems IRIS プロダクションにシームレスに統合できます。その仕組みを見てみましょう。
+<br>
+PEX は、基本的にプロキシ・オブジェクトを使用して InterSystems IRIS で動作します。プロダクションでは、EnsLib.PEX パッケージからビジネス・コンポーネントを追加して、.NET または Java コードのプロキシとして機能させることができます。
+<br>
+PEX パッケージのビジネス・コンポーネントは、言語とフレームワーク間のメッセージを中継する外部言語サーバと通信します。
+<br>
+言語内のコードは、PEX スーパークラスから継承された抽象メソッドをオーバーライドします。これらのメソッドは外部言語サーバーによって呼び出され、プロダクションからのリクエストを処理します。
+<br>
+コードでは、応答を作成したり InterSystems IRIS の 1 つ以上の他のビジネス・コンポーネントに要求を渡すことができます。
+<br>
+要求を処理する間、コードは JDBC または ODBC を使用してデータベースにクエリを実行するなど、InterSystems IRIS で他の処理を実行するために同じ接続を再利用することもできます。この機能は、再連続性 (reentrancy) と呼ばれます。
+<br>
+InterSystems IRIS のその他のビジネス・コンポーネントは、ObjectScript または PEX を使用して構築できます。PEX コンポーネントは、異なる言語で記述することもできるため比類のない柔軟性と複数のプログラミング言語にまたがって作業する能力が得られます。
+<br>
+たとえば、Java で構築されたビジネスサービスは、.NET で構築されたビジネスプロセスと通信できます。
+<br>
+そのビジネスプロセスは、レコードマップなどの相互運用性ユーティリティを使用して構築された ObjectScript コンポーネントにメッセージを渡すこともできます。
+<br>
+PEX を使用すると、選択した言語で記述しながら InterSystems IRIS Interoperability のコネクタとユーティリティを利用できます。
+<br>
+このビデオでは、PEX を紹介し、その機能を紹介しました。次のレッスンでは、PEX で動作するように環境を構成する方法を学びます。
+</div>
+</details>
+
+<br>
+
+- <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=EPEX_intro" target="_blank">ドキュメント：PEXの概要</a>
+- <a href="https://learning.intersystems.com/course/view.php?name=PEXInteroperabilityProductions" target="_blank">Creating Interoperability Productions Using PEX</a
+
 ---
-## 5. <img src="./assets/icons/5-access-multilanguage.png" width="70%"/>
+## 4. <img src="./assets/icons/5-access-multilanguage.png" width="70%"/>
 
 InterSystems IRIS は、各種言語からアクセスすることができます。よくある使い方としては、他 DB と同様に SQL ベースでアクセスする方法があげられます。
 
@@ -455,7 +488,7 @@ SQL は ISO/ANSI 標準ですが、独自のコマンドと構文を持つ DDL �
 - <a href="dotNetApptoISCProducts.html" target="_blank">.NET アプリケーションと InterSystems 製品の接続</a>
 
 ---
-## 6. <img src="./assets/icons/6-APIManagement.png" width="70%"/>
+## 5. <img src="./assets/icons/6-APIManagement.png" width="70%"/>
 
 ### 1. InterSystems API Managerとは
 InterSystems API Manager は、アプリケーション間のゲートウェイとして機能しトラフィックを監視・制御します。
@@ -680,7 +713,7 @@ InterSystems API Manager を使用して、InterSystems IRIS® data platform 内
 ✅参考記事：<a href="https://jp.community.intersystems.com/node/493416" target="_blank">ゼロから使いこなす IAM（InterSystems API Manager）</a>
 
 ---
-## 7. <img src="./assets/icons/7-Analytics.png" width="70%"/>
+## 6. <img src="./assets/icons/7-Analytics.png" width="70%"/>
 
 InterSystems IRIS に組み込まれた InterSystems IRIS Business Intelligence は、ほぼリアルタイムの分析を提供します。
 
@@ -1053,7 +1086,7 @@ InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用
 
 
 ---
-## 8. <img src="./assets/icons/8-performance.png" width="70%"/>
+## 7. <img src="./assets/icons/8-performance.png" width="70%"/>
 
 アプリケーションのパフォーマンスを必要なだけ確保するためには、高性能なインジェストツールでシステムを構成するだけでなく、大量かつ高速なインジェストのためにシャーディングを設定し、フェイルオーバーのためにミラーリングを設定する必要があります。
 
