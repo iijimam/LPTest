@@ -16,7 +16,7 @@ JDBC、XEP、Hibernate、Native SDK を使用して、Javaアプリケーショ�
 - [Connecting Node.js Application](https://learning.intersystems.com/course/view.php?name=Node.js%20Experience)
 
 ---
-[1. <img src="./assets/icons/ServerSideApp1.png" width="40%"/>](#1-)
+[1. <img src="./assets/icons/1.png" width="40%"/>](#1-)
 
 [2. <img src="./assets/icons/Java2.png" width="40%"/>](#2-)
 
@@ -30,7 +30,7 @@ JDBC、XEP、Hibernate、Native SDK を使用して、Javaアプリケーショ�
 
 
 ---
-## 1. <img src="./assets/icons/ServerSideApp1.png" width="70%"/>
+## 1. <img src="./assets/icons/1.png" width="70%"/>
 
 各 API の利点を確認し、Javaアプリケーションを InterSystems 製品に接続するための方法を確認します。
 
@@ -38,9 +38,9 @@ JDBC、XEP、Hibernate、Native SDK を使用して、Javaアプリケーショ�
 
  {% include youtube.html id="8prvxy1Gn8s" %} 
 
-<details>
+<details class="transcript2">
 <summary> ▶日本語字幕 </summary>
-<div class="transcript">
+<div class="content">
 Java 開発者は、さまざまな方法でアプリケーションを InterSystems IRIS data platform に接続できます。<br>
 InterSystems IRIS は強力でマルチモデルに対応しておりこうした接続の柔軟性は、アプリケーションの開発において非常に重要です。<br>
 アプリケーションのパフォーマンスを向上させるだけでなく、アプリケーションの開発を加速させることもできるかもしれません。<br>
@@ -71,11 +71,11 @@ JDBC、XEP、Native API、Hibernate といったさまざまなオプション�
 </details>
 
 <br>
-✅ <a href="https://learning.intersystems.com/course/view.php?name=Shared%20Memory%20Connection" target="_blank">ビデオ：Using a Java Shared Memory Connection（英語）</a>
+✅ <a href="https://learning.intersystems.com/course/view.php?name=Shared%20Memory%20Connection" target="_blank">ビデオ：Using a Java Shared Memory Connection（英語）</a>：別タブで開きます
 
-<details>
+<details class="transcript2">
 <summary> ▶日本語字幕 </summary>
-<div class="transcript">
+<div class="content">
 Java アプリケーションのパフォーマンスを最大化するために、InterSystems IRIS では Java 共有メモリ接続を提供しています。
 <br>
 共有メモリ接続では、クライアントとデータベースの両方がホスト・マシン上の同じメモリを共有します。
@@ -112,11 +112,11 @@ InterSystems IRIS のインスタンスを実行しておりそのインスタ�
 
 SQL ベースのリレーショナル・テーブルへのアクセスには JDBC API を使用できます。
 
-✅ <a href="https://learning.intersystems.com/course/view.php?name=JDBC%20and%20InterSystems%20IRIS" target="_blank">ビデオ：Using JDBC with InterSystems IRIS（英語／日本語字幕付き）
+✅ <a href="https://learning.intersystems.com/course/view.php?name=JDBC%20and%20InterSystems%20IRIS" target="_blank">ビデオ：Using JDBC with InterSystems IRIS（英語／日本語字幕付き）</a>：別タブで開きます
 
-<details>
+<details class="transcript2">
 <summary> ▶日本語字幕 </summary>
-<div class="transcript">
+<div class="content">
 InterSystems IRIS Data Platform は、Java Database Connectivity (JDBC) 接続をサポートしており Java アプリケーションから SQL クエリを実行して InterSystems IRIS データベース内のデータを作成、読み取り、更新、および削除することができます。
 <br>
 JDBC は、Java アプリケーションから SQL を使用してリレーショナル・データベースと対話する業界標準の方法です。
@@ -164,11 +164,11 @@ IRISDataSource() を使用して、InterSystems IRIS に接続します。他の
 
 XEP を使用して、高性能でリアルタイムのオブジェクトを迅速に格納できます。
 
-✅ [ビデオ（英語／日本語字幕付き）：Using XEP with Java Applications](hhttps://learning.intersystems.com/course/view.php?name=Using%20XEP)
+✅ <a href="https://learning.intersystems.com/course/view.php?name=Using%20XEP" target="_blank">ビデオ（英語／日本語字幕付き）：Using XEP with Java Applications</a>：別タブで開きます
 
-<details>
+<details class="transcript2">
 <summary> ▶日本語字幕 </summary>
-<div class="transcript">
+<div class="content">
 Java はオブジェクト指向言語ですが、多くの場合、データベースとのやり取りにはJava オブジェクトをリレーショナル アーキテクチャにマッピングする必要があります。
 <br>
 
@@ -300,34 +300,107 @@ Java 用 XEP 実装の使用方法を再確認しましょう。
 </details>
 <br>
 
-- [ドキュメント：XEP による Java オブジェクト永続性](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_xep)
+- <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AFL_xep" target="_blank">ドキュメント：XEP による Java オブジェクト永続性</a>
 
 ---
 ## 4. <img src="./assets/icons/Java4.png" width="70%"/>
 Native SDK を使用してIRISのグローバル変数にデータを格納したり、InterSystems IRIS のメソッドまたはルーチンを呼び出します。
 
-- [ビデオ（英語／日本語字幕付き）：Using the Native API for .NET](https://learning.intersystems.com/course/view.php?name=Native%20API%20for%20.NET)
+- <a href="https://learning.intersystems.com/course/view.php?name=Using%20the%20Native%20API" target="_blank">ビデオ（英語／日本語字幕付き）：Using the Native API for .NET</a>：別タブで開きます。
 
-    日本語字幕を選択できます。
 
-- [ドキュメント：Native SDK for .NET の概要](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BNETNAT_about)
+    <details class="transcript2">
+    <summary> ▶日本語字幕 </summary>
+    <div class="content">
+Java 開発者が InterSystems IRIS data platform とインタフェースする方法の 1 つに、Java の Native API があります。
+<br>
+InterSystems IRIS の Native API を使用すると、JDBC や SQL で使用されるのと同じ基礎となる通信プロトコルを使用してデータに直接アクセスできます。
+<br>
+このビデオでは、Native API を使用する基本的な利点のいくつかを説明し、Java アプリケーションでどのように使用できるかの例をいくつか探ります。
+<br>
+Native API の最初の主な利点は、InterSystems IRIS のグローバルの基本アーキテクチャを公開しアプリケーションに直接アクセスを提供して一般的なリレーショナル・アクセスやオブジェクト指向アクセスを省略できることです。
+<br>
+グローバルは、物理的な InterSystems IRIS データベース内に格納される名前付きの多次元配列です。これは、InterSystems IRIS でデータ用に使用される基本的なストレージ構造です。
+<br>
+グローバルについてよく知らない場合は、グローバルの詳細を説明した別の学習資料を参照してください。
+<br>
+Native API のもう 1 つの利点は、InterSystems ObjectScript のコア機能 (クラス・メソッドやルーチンの実行など) を Java アプリケーション内で公開できることです。
+<br>
+を公開できることです。このビデオの例では、Java コードと Native API を使用して、ObjectScript と同等のアクションがいくつか実行されているのがわかります。
+<br>
+さらに、Java の Native API は、InterSystems IRIS 内の既存の JDBC 機能を拡張します。これにより Java アプリケーションは、複数のパラダイムを並行して使用してデータを操作できます。
+<br>
+例えば、Java と InterSystems IRIS 間で同じ物理接続とトランザクション・コンテキストを使用して JDBC を介したリレーショナル・テーブルと Native API を介したグローバルの両方として、データをアプリケーションに公開できます。
+<br>
+例を参照する前に、InterSystems IRIS でグローバルに直接アクセスして操作するとデータの検証や変換が失われるなど一定の制約があることに注意することが重要です。ただし、InterSystems IRIS でデータに高速かつ直接アクセスできるようになります。
+<br>
+ここでは、InterSystems IRIS に接続し、Native API を使用してグローバル、クラス・メソッド、およびルーチンにアクセスする Java クラスの例を見てみましょう。
+<br>
+まず、InterSystems IRIS 用の JDBC ドライバで Java アプリケーションをセットアップする必要があることに注意してください。このファイルは、サポートされる Java のバージョンごとに別々のバージョンがあり、インストール先の /dev/java/lib フォルダのサブディレクトリにあります。
+<br>
+InterSystems IRIS のグローバル、メソッド、およびルーチンを使用して何かを実行する前に Java アプリケーションをそのインスタンスに接続する必要があります。そのためには、有効な JDBC 接続文字列を作成する必要があります。
+<br>
+ここに示すように、接続文字列には、IP アドレス、スーパーサーバ・ポート、ネームスペースなど、いくつかの重要な情報が含まれます。接続を確立するには、ユーザー名とパスワードも必要です。
+<br>
+接続文字列は、残りの条件を追加する前に、jdbc と IRIS を使用して特定の構文に従う必要があることに注意してください。
+<br>
+接続を作成したら、InterSystems IRIS のインスタンスへの接続ポイントとして使用するネイティブ・オブジェクトを作成する必要があります。
+<br>
+接続が作成され、ネイティブ・オブジェクトを使用できるようになると、ネイティブ API を使用して、InterSystems IRIS でグローバルにアクセスし操作できるようになります。
+<br>
+このコードでは、^stocks グローバルの 3 つのノードにいくつかの異なる銘柄の現在の価格を設定しています。次に、これらの銘柄の 1 つの値を取得しそれを出力しています。これは、作成したばかりのネイティブ・オブジェクトから set メソッドと get メソッドを呼び出すことで行われていることに注意してください。
+<br>
+ObjectScript の ^stocks グローバルの設定と取得に相当するコードを以下に示します。
+<br>
+次に、^stocks グローバルに対して反復処理を実行できます。ネイティブ API を使用すると while ループで使用するイテレータを作成できます。これにより、グローバル内の各ノードの値を取得できます。
+<br>
+同等の ObjectScript コードでは、$ORDER 関数が ^stocks グローバルで使用されます。
+<br>
+最後に、ネイティブ API を使用して、InterSystems IRIS クラスのメソッドやルーチンを呼び出すことができます。
+<br>
+この Java コードでは、PopulateUtils クラスのメソッドを呼び出してランダムな株式シンボルと 0 ～ 1,000 ドルの間のランダムな値を生成します。次に、この情報を使用して、^stocks グローバルの新しいノードを設定します。
+<br>
+ObjectScript の同等のコードを見てみると、Java コードはかなり直感的で引数が ObjectScript のメソッド呼び出しと一致していることがわかります。
+<br>
+ルーチンの呼び出しも同じように動作します。例えば、InterSystems IRIS のバージョン情報を取得するためにルーチンを呼び出したいとします。この場合、このバージョン情報を取得するためにカスタム・ルーチンが作成されます。
+<br>
+アプリケーションの最後に、データ処理が終了したら、必ずネイティブ・オブジェクトと接続を閉じてください。
+<br>
+このコードを実行するとコンソールで意図した通りに ^stocks グローバルが正常に操作されていることが確認できます。
+<br>
+InterSystems IRIS グローバルの構造に精通しており、それらのグローバルに直接アクセスして操作することで Java アプリケーションのパフォーマンスを向上させたいと考えている場合、InterSystems IRIS の Java ネイティブ API を使用すると、その可能性が広がります。
+    </div>
+    </details>
 
-- [記事：Native SDK (NativeAPI) for .NET を使用する簡単なサンプルのご紹介](https://jp.community.intersystems.com/node/559276)
+- <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BJAVNAT_about" target="_blank">ドキュメント：Java Native SDK の概要</a>
+
+- <a href="https://learning.intersystems.com/course/view.php?name=JavaMultiModel" target="_blank">演習（英語）：Interacting with Data In Java Using Multiple Data Models</a>
+
+    InterSystems IRIS® data platform のマルチモデル・アーキテクチャをお試しください。
+    
+    InterSystems IRIS のマルチ・モデル・アクセスは、グローバルと呼ばれるデータ構造によって実現されています。Java では、Native SDK を使用して InterSystems IRIS に接続し、グローバルを使用してデータを操作できます。もう 1 つのオプションは、JDBC で接続し、業界標準の SQL を使用してデータにアクセスすることです。
+    
+    この場合、データはリレーショナル・テーブルとしてモデル化されます。XEP または Hibernate を使用して同じデータをオブジェクトとして扱うこともできます。
+    
+    この機能は、InterSystems ObjectScript でプログラミングする場合でも、外部言語 API のいずれかを使用する場合でも同じです。
+
 
 ---
 ## 5. <img src="./assets/icons/Java5.png" width="70%"/>
-Entity Framework Providerの使用方法を確認し、Code FirstアプローチとDatabase Firstアプローチの使用方法を学びます。
+JDBC、XEP、およびネイティブ SDK の組み込みテクノロジに加えて、Hibernate では Java オブジェクトをリレーショナル・テーブルにマッピングできます。
 
-- [ドキュメント：IRISClient アセンブリの Managed Provider](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BNET_eframe)
+<a href="https://learning.intersystems.com/course/view.php?name=Using%20Hibernate" target="_blank">ビデオ（英語／日本語字幕付き）：Using Hibernate with InterSystems IRIS</a>
 
-- [ビデオ（英語／日本語字幕付き）：Using Entity Framework with InterSystems IRIS Data Platform](https://learning.intersystems.com/course/view.php?name=Entity%20Framework)
+※ページ内ビデオは日本語の字幕が付いています。
 
 
 ---
 ## 6. <img src="./assets/icons/Java6.png" width="70%"/>
-各接続方法の利点を確認するため、体験環境を使って演習してみましょう。
 
-[体験環境付き演習（英語）：Stock Trading with .NET](https://learning.intersystems.com/course/view.php?id=2522)
+接続方法の利点を確認するため、体験環境を使って演習してみましょう。
 
-※ ビデオは日本語字幕を選択できます。
+- <a href="https://learning.intersystems.com/course/view.php?id=2590" target="_blank">体験環境付き演習（英語）：Stock Trading with Java</a>
+
+- <a href="https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=BEXTSERV" target="_blank">ドキュメント：InterSystems 外部サーバの使用法</a>
+
 
