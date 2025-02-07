@@ -684,7 +684,7 @@ InterSystems API Manager を使用して、InterSystems IRIS® data platform 内
 
 InterSystems IRIS に組み込まれた InterSystems IRIS Business Intelligence は、ほぼリアルタイムの分析を提供します。
 
-このデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。レポート作成に関するリソースは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reportsでデータを視覚的に提供する)のセクションを参照してください。
+このデータを使って、ダッシュボードやピボットテーブルを作成し、スループットを分析したり、規制データを報告したりすることができます。レポート作成に関するリソースは、[「InterSystems Reportsでデータを視覚的に提供する」](#intersystems-reports-でデータを視覚的に提供する)のセクションを参照してください。
 
 ---
 
@@ -819,15 +819,15 @@ City を追加しても、元の数字（この場合は1373）が合計に残�
 <br>
 ピボット・テーブルに戻るには、ピボット・ビルダの上にある[テーブルの表示] ボタンをクリックします。
 <br>
-別のリストを表示するには、ピボット・ビルダの上にあるレンチ・アイコンをクリックしてピボット・オプション・メニューを開き、ドロップダウン・メニューからリストを選択します。ピボット・ビルダーの上部にある双眼鏡をもう一度クリックすると、リストが表示されます。
+別のリストを表示するには、ピボット・ビルダの上にあるレンチ・アイコンをクリックしてピボット・オプション・メニューを開き、ドロップダウン・メニューから詳細リストを選択します。ピボット・ビルダーの上部にある双眼鏡をもう一度クリックすると、リストが表示されます。
 <br>
 別のリストを見つけるもう1つの方法は、モデル・コンテンツ・エリアの詳細リストを選択して、利用可能なリストをすべて表示することです。
 <br>
-フィルタは、表示するデータを区切るために不可欠です。アナライザでは、必要なフィルタをピボット・ビルダにドラッグ・アンド・ドロップするだけです。この例では、好きな色を表示するテーブルがあり赤のフィルタを追加します。テーブルには、このフィルタに基づく合計が「すべて」の見出しの下に表示されます。ここで、[ピボット・オプション] メニューを開き、[合計] を選択して、[行] に [年齢グループ] レベルを追加し合計を表示します。ディメンジョンを追加してもこのフィルタに基づく結果の合計数が保持されることに注意してください。
+フィルタは、表示するデータを区切るために不可欠です。アナライザでは、必要なフィルタをピボット・ビルダにドラッグ・アンド・ドロップするだけです。この例では、好きな色を表示するテーブルがあり赤のフィルタを追加します。テーブルには、このフィルタに基づく合計が「All」の見出しの下に表示されます。ここで、[ピボット・オプション] メニューを開き、[合計] を選択して、[行] に [年齢グループ] レベルを追加し合計を表示します。ディメンジョンを追加してもこのフィルタに基づく結果の合計数が保持されることに注意してください。
 <br>
 フィルタをすばやく追加するには、ディメンジョンをセパレータ・バーにドラッグします。そこから範囲を選択したり包含または除外する値を検索したり、フィルタをクリアしたりできます。フィルタ名の横にあるチェックボックスを選択するだけでフィルタを一時的に無効にできます。
 <br>
-高度なフィルタまたはメジャー用のフィルタを追加するには、[フィルタ] セクションの歯車アイコンを選択して [条件の追加] をクリックし、[値] ドロップダウン・メニューから項目を選択します。この例では、Measure.Test Score を選択します。次に、演算子 (この例では以下) をクリックし、数値を追加します。これで、テーブルには 50 点以下のテスト・スコアが表示されます。
+高度なフィルタまたはメジャー用のフィルタを追加するには、[フィルタ] セクションの歯車アイコンを選択して [条件の追加] をクリックし、[値] ドロップダウン・メニューから項目を選択します。この例では、Measure.Test Score を選択します。次に、演算子 (この例では以下) をクリックし数値を追加します。これでテーブルには 50 点以下のテスト・スコアが表示されます。
 <br>
 最後に、[保存] をクリックしてピボット・テーブルを保存します。
 <br>
@@ -860,64 +860,120 @@ City を追加しても、元の数字（この場合は1373）が合計に残�
 {% include youtube.html id="VblJyJl2Xho" %}
 
 ---
-### InterSystems IRISのIntegratedMLによる予測
+### InterSystems IRIS の IntegratedML による予測
 
-InterSystemsのIRIS®データプラットフォームの機能であるIntegratedMLを使用することで、SQL開発者はアプリケーションのSQLコマンドを使用して予測モデルを構築、トレーニング、実行することができます。
+InterSystems IRIS® data platform の機能である IntegratedML を使用することで、SQL 開発者はアプリケーションの SQL コマンドを使用して予測モデルを構築、トレーニング、実行することができます。
 
 このパスでは、IntegratedML を紹介し、データから予測を開始する方法を紹介します。
+<br>
 
-- [ビデオ（英語）：機械学習とは](https://learning.intersystems.com/course/view.php?name=What%20is%20ML)
+✅ ビデオ（英語）：What is Machine Leraning?
 
-    より深く学習されたい場合は、以下ビデオもご参照ください（日本語）
-    {% include youtube-list.html id="47bP5-AtBVU" list="PLzSN_5VbNaxC-z6_DKUZuO__zyudjLE-g" %}
+機械学習の基本的な概念と、その利点と用途について学びます。 InterSystems IRIS® data platform の IntegratedML の概要を理解し、InterSystems IRIS の SQL 環境から直接アプリケーションに機械学習を実装する方法をご覧ください。
 
-- [インフォグラフィック（英語）:Preparing Your Data for Machine Learning](https://learning.intersystems.com/course/view.php?name=Preparing%20Your%20Data)
+{% include youtube.html id="TYovA51HBLo" %}
+
+<details class="transcript2">
+<summary> ▶日本語字幕 </summary>
+<div class="content">
+開発者やエンジニアの手元にあるデータ量は増え続け、人間の脳が自力で処理できる限界に近づいています。大量のデータに依存する開発者やエンジニアは、データを効率的に処理する方法を見つける必要があります。
+<br>
+幸いなことにその必要はありません。機械学習を使えば、コンピューターは実際にこれらのタスクを実行ことができます。その方法を教えれば良いのです。
+<br>
+最も単純なレベルでは機械学習とは、システムが明示的な指示を与えられなくても特定のタスクを実行する方法を自動的に学習できるようにするプロセスです。
+<br>
+これらのタスクは様々ですが多くの場合、予測モデルの作成が含まれます。予測モデルとは、入力されたデータに対して予測を行うために使用できるデータモデルのことを指します。
+<br>
+ある不動産市場において、ユーザーが自分の家の価値を予測するのを助けるアプリケーションを考えてみよう。
+<br>
+家の価値を予測するためには、広さ、立地、ベッドルームの数など、さまざまな要素があります。
+<br>
+このような家の個々の特性、そしておそらくもっと多くの特性は、予測モデルで使用される「特徴量」として知られています。機械学習では、特徴量はモデルの入力となる個々の測定可能な要素です。
+<br>
+モデルの出力は、様々なラベルの確率で構成されます。ラベルとは、モデルが予測しようとする測定可能な要素であり、例えば、特徴量から推定される家の価値などです。
+<br>
+したがって、これらの特徴とラベルに関連する確率を含む住宅のデータセットがあれば、機械学習アルゴリズムは、それらの特徴とラベルの関係を学習して値を予測するモデルを作成することができます。
+<br>
+このような予測モデルを作成するための多くの異なるアルゴリズムが存在し、データサイエンティストは特定のワークフローのためにアルゴリズムを磨き、最適化することができます。
+<br>
+では、これらの予測モデルはどのようにして受け取ったデータを正しく解釈することを学習するのでしょうか？ラベルと機械学習アルゴリズムのための特徴量と相関する出力の両方を含む学習データを提供することによって、モデルはこれらの相関関係をよりよく理解するように学習することができます。
+<br>
+これらを組み合わせることで、入力データの特徴を使ってラベルの予測を行う関数が作成されます。この関数は、原理的には人間の開発者が値を予測するために書く関数と変わりません。機械を使って関数を作成し改良しているだけなのです。
+<br>
+このような機械学習は、今日事実上あらゆる業界で使われています。ヘルスケアでは、患者が再入院するリスクがあるかどうかを予測するアプリケーションにモデルが使われているかもしれません。これにより、患者が退院する前にケアチームが介入でき、医師や看護師の時間と労力を節約できる可能性があります。
+<br>
+金融の分野では、機械学習を活用することで銀行口座やクレジットカードの不正行為を検知することができます。
+<br>
+機械学習は、携帯電話からタクシーを依頼するような普段何気なく行っている作業でさえも可能します。タクシー会社のアプリのダイナミック・プライシング・システムは、様々な情報を利用してあなたが目にするタクシー料金を決定します。
+<br>
+機械学習は、あなたのアプリケーションがより良い結果を生み出すのに役立つと思いますが、手元にデータサイエンティストのチームがない場合あなたのためのソリューションがここにあります。
+<br>
+InterSystems IRIS data platform 内の Integrated ML は、データサイエンスの専門知識に関係なく、SQL の熟練した開発者がアプリケーション内で機械学習を利用することを可能にします。
+<br>
+Integrated MLを使用することで、開発者は使い慣れた SQL 構文を使用して機械学習モデルの作成、学習、実行、検証を行うことができます。
+<br>
+目の前にある膨大な量のデータを活用し始める準備が整いましたら、InterSystems IRIS data platform の Integrated ML をお試しください。
+</div>
+</details>
+
+
+
+<br>
+✅ より深く学習されたい場合は、以下ビデオもご参照ください（日本語）
+
+{% include youtube-list.html id="47bP5-AtBVU" list="PLzSN_5VbNaxC-z6_DKUZuO__zyudjLE-g" %}
+
+<br>
+✅ インフォグラフィックス（英語）
+
+- <a href="https://learning.intersystems.com/course/view.php?name=Preparing%20Your%20Data" target="_blank">インフォグラフィック（英語）:Preparing Your Data for Machine Learning</a>
 
     このインフォグラフィックは、データを準備するための基本的なステップと、IntegratedML がそのプロセスをどのように効率化できるかを示しています。データを準備することは、アプリで機械学習を活用するための重要なステップです。
 
-- [インフォグラフィック（英語）:Common Supervised Machine Learning Algorithms](https://learning.intersystems.com/course/view.php?name=Machine%20Learning%20Algorithms)
+- <a href="https://learning.intersystems.com/course/view.php?name=Machine%20Learning%20Algorithms" target="_blank">インフォグラフィック（英語）:Common Supervised Machine Learning Algorithms</a>
 
-    ご参考：[機械学習101（2023年11月29日開催　インターシステムズ開発者ウェビナー）](https://www.youtube.com/watch?v=47bP5-AtBVU&list=PLzSN_5VbNaxC-z6_DKUZuO__zyudjLE-g)
+<br>
 
+✅ Integrated ML 紹介ビデオ
 
 - Integrated ML のご紹介～InterSystems IRISのAutoMLご紹介～
 
     {% include youtube.html id="PFiqENE1uKA" %}
 
-
-より詳細を確認する場合のおすすめビデオは以下
-
+<br>
 - SQLから始める機械学習 ～　IntegratedMLのご紹介　～
 
     {% include youtube-list.html id="3yLK9kBs4ic" list="PLzSN_5VbNaxC-z6_DKUZuO__zyudjLE-g&index=2" %}
 
-- [IntegratedMLとDataRobotの連携](https://www.intersystems.com/jp/integratedml-datarobot-demo/)
+<br>
+- <a href="https://www.intersystems.com/jp/integratedml-datarobot-demo/" target="_blank">IntegratedMLとDataRobotの連携</a>
 
-- [ビデオ（英語）：IntegratedML: Predicting Readmissions](https://learning.intersystems.com/course/view.php?name=IntegratedMLReadmissions)
+- <a href="https://learning.intersystems.com/course/view.php?name=IntegratedMLReadmissions" target="_blank">ビデオ（英語）：IntegratedML: Predicting Readmissions</a>
 
-- [演習環境付き演習（英語）:Hands-On with IntegratedML](https://learning.intersystems.com/course/view.php?name=HandsOnIntegratedML)
+- <a href="https://learning.intersystems.com/course/view.php?name=HandsOnIntegratedML" target="_blank">演習環境付き演習（英語）:Hands-On with IntegratedML</a>
 
-    ✅[機械学習を試せるチュートリアル（日本語）：IntegratedML](https://jp.community.intersystems.com/node/537501)
+    ✅ <a href="https://jp.community.intersystems.com/node/537501" target="_blank">機械学習を試せるチュートリアル（日本語）：IntegratedML</a>
 
+---
+### InterSystems Reports でデータを視覚的に提供する
 
-### InterSystems Reportsでデータを視覚的に提供する
-
-InterSystems IRIS®データ・プラットフォーム、InterSystems IRIS® for Health、HealthShare®でレポートを作成、カスタマイズ、表示するには、InterSystems Reportsを使用します。
+InterSystems IRIS® data platform、InterSystems IRIS® for Health、HealthShare® でレポートを作成、カスタマイズ、表示するには、InterSystems Reports を使用します。
 
 - [ビデオ（英語）:Introduction to InterSystems Reports](https://learning.intersystems.com/enrol/index.php?id=1444)
 
     Logi Analytics が提供する InterSystems Reports は、データのビジュアルレポートを迅速に作成・表示できるレポート作成ツールです。このビデオでは、InterSystems Reports とそのコア・コンポーネントを紹介します。より詳細な情報については、Logi Report のドキュメントをご覧ください。
 
-- [ドキュメント：InterSystems Reports Serverの設定](https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GISR_server)
+- <a href="https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GISR_server" target="_blank">ドキュメント：InterSystems Reports Serverの設定</a>
 
-- [ドキュメント：Designer Installation](https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GISR_server)
+- <a href="https://docs.intersystems.com/components/csp/docbook/DocBook.UI.Page.cls?KEY=GISR_designer#GISR_install_designer" target="_blank">ドキュメント：Designer Installation</a>
 
-- [演習環境付き演習（英語）:Getting Started with InterSystems Reports](https://learning.intersystems.com/course/view.php?name=GettingStartedInterSystemsReports) 
+- <a href="https://learning.intersystems.com/course/view.php?name=GettingStartedInterSystemsReports" target="_blank">演習環境付き演習（英語）:Getting Started with InterSystems Reports</a> 
 
     [PDF](https://learning.intersystems.com/course/view.php?name=GettingStartedInterSystemsReports)
 
 - [ビデオ（英語）：Introduction to InterSystems Reports Designer](https://learning.intersystems.com/course/view.php?id=2505)
 
+---
 ### アダプティブ・アナリティクスによるデータモデルの構築
 
 InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用し、Tableau、Excel など、既にお使いのテクノロジーとシームレスに統合することで、セルフサービス型のデータディスカバリー・アナリティクス機能を提供します。
@@ -934,6 +990,7 @@ InterSystems IRIS® Adaptive Analytics は、AtScale テクノロジーを使用
 - [日本語ドキュメント:InterSystems IRIS Adaptive Analytics](https://docs.intersystems.com/irislatestj/csp/docbook/DocBook.UI.Page.cls?KEY=AADAN)
 
 - [オンラインコース（英語）：InterSystems IRIS Adaptive Analytics Essential](https://learning.intersystems.com/course/view.php?name=AdaptiveAnalyticsEssentials)
+
 
 ---
 ## 8. <img src="./assets/icons/8-performance.png" width="70%"/>
