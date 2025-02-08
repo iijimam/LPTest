@@ -7,11 +7,11 @@ layout: post
 
 >オリジナル：[Deploying InterSystems IRIS in Containers and the Cloud](https://learning.intersystems.com/enrol/index.php?id=2141)
 
-スケーラブルなデプロイメント戦略を使用して、InterSystems IRIS® データプラットフォームの実装に信頼性を追加できます。
+スケーラブルなデプロイメント戦略を使用して、InterSystems IRIS® data platform の実装に信頼性を追加できます。
 
 このパスでは、InterSystems IRIS のクラウドおよびコンテナベースのデプロイメントを作成する方法を解説します。
 
-最初にシステムとデプロイメントの仕様概要を説明します。次に、デプロイメント毎の例をご覧いただき、システムに最適なアプローチを確認することができます。
+最初にシステムとデプロイメントの仕様概要を説明します。次に、デプロイメント毎の例をご覧いただきシステムに最適なアプローチを確認することができます。
 
 ---
 
@@ -47,73 +47,73 @@ InterSystems IRIS の新規導入を開始する際には、以下のような�
 - 実装ではシャーディングを使用しますか？
 - 実装ではミラーリングを使用しますか？
 
-> **英語ページ**
->[Job Aid: Define system requirements and deployment specifications](https://learning.intersystems.com/mod/page/view.php?id=13225)
+> **オリジナル英語ページ**
+><a href="https://learning.intersystems.com/mod/page/view.php?id=13225" target="_blank">Job Aid: Define system requirements and deployment specifications</a>
 {: .block-tip}
 ---
 ## 2. <img src="./assets/icons/Container2.png" width="70%"/>
 
 InterSystems IRIS をコンテナやクラウドに導入するための戦略をご紹介します。
 
-✅ ビデオ：Dockerコンテナ版InterSystems IRIS data platformの勧め
+✅ ビデオ：Docker コンテナ版 InterSystems IRIS data platform の勧め
 
 {% include youtube-list.html id="yY8BLUYp5IA" list="PLzSN_5VbNaxAUiQkx5d22TX0zjx4Mmqhb&index=1" %}
+<br>
 
-✅ ビデオ：KubernetesでのIRISの運用とそれを支える仕組み
+✅ ビデオ：Kubernetes での IRI Sの運用とそれを支える仕組み
 
 {% include youtube-list.html id="yKX8wB9d2cs" list="PLzSN_5VbNaxC2mfu1cYvn9pfbJRs7xtkk&index=1" %}
+<br>
 
 > **英語ビデオもあります**
->- [ビデオ（英語）:Tools for Running and Deploying InterSystems Containers](https://learning.intersystems.com/course/view.php?name=ContainerTools1)
+>- <a href="https://learning.intersystems.com/course/view.php?name=ContainerTools" target="_blank">ビデオ（英語）:Tools for Running and Deploying InterSystems Containers</a>
 >
->    InterSystems IRIS® データ・プラットフォームで利用可能なデプロイメント・ツールについて学ぶことで、ニーズに合ったコンテナ・ベースのシステムを設計することができます。
+>    InterSystems IRIS® data platform で利用可能なデプロイメント・ツールについて学ぶことで、ニーズに合ったコンテナ・ベースのシステムを設計することができます。
 >
 >    このビデオでは
 >    - コンテナと Docker の基本を確認します。
 >    - InterSystems IRIS 組み込みの 2 つのデプロイ機能、永続的な %SYS と構成のマージについて学びます。
 >    - デプロイメント・プラットフォームの利点を紹介します（InterSystems Kubernetes Operator）
 >
->    > InterSystems Cloud Manager についてビデオの説明に含まれていますが、バージョン2023.3より deprected となりました。
+>    > InterSystems Cloud Manager についてビデオの説明に含まれていますが、バージョン 2023.3より deprected となりました。
 >
+>- <a href="https://learning.intersystems.com/course/view.php?name=Distributed%20Deployments" target="_blank">ビデオ（英語）：Using Distributed Deployments to Improve Scalability, Compliance, and Availability</a>
 {: .block-tip}
-
-- [ビデオ（英語）：Using Distributed Deployments to Improve Scalability, Compliance, and Availability](https://learning.intersystems.com/course/view.php?name=Distributed%20Deployments)
-
 
 ---
 ## 3. <img src="./assets/icons/Container3.png" width="70%"/>
 
-- [ビデオ（英語）:Docker Containers and InterSystems IRIS](https://learning.intersystems.com/enrol/index.php?id=888)
+- <a href="https://learning.intersystems.com/enrol/index.php?id=888" target="_blank">ビデオ（英語）:Docker Containers and InterSystems IRIS</a>
 
-    このビデオシリーズでは、Dockerコンテナとその用途を紹介し、InterSystems IRIS®データプラットフォームと組み合わせた場合に、いかに効果的であるかを紹介しています。
+    このビデオシリーズでは、Docker コンテナとその用途を紹介し、InterSystems IRIS® data platform 組み合わせた場合にいかに効果的であるかを紹介しています。
     
     また、コンテナが継続的インテグレーション、継続的デプロイメント（CICD）アプローチにどのように適合するかもご理解いただけます。
 
 - Dockerを使用して InterSystems IRIS Community Edition を動かす
 
-    記事：[InterSystemsコンテナレジストリの使い方とコンテナ開始までの流れ（解説ビデオ付き）](https://jp.community.intersystems.com/node/545786)
+    記事：<a href="https://jp.community.intersystems.com/node/545786" target="_blank">InterSystemsコンテナレジストリの使い方とコンテナ開始までの流れ（解説ビデオ付き）</a>
 
     {% include youtube-list.html id="HEGWVP0PIfI" list="PLzSN_5VbNaxAUiQkx5d22TX0zjx4Mmqhb&index=2" %}
 
-
+<br>
 
 > **英語のビデオもあります**
->- [ビデオ（英語）:Run InterSystems IRIS Community Edition Using Docker](https://learning.intersystems.com/enrol/index.php?id=1762)
+>- <a href="https://learning.intersystems.com/enrol/index.php?id=1762" target="_blank">ビデオ（英語）:Run InterSystems IRIS Community Edition Using Docker</a>
 {: .block-tip}
 
-- [体験環境付き演習（英語）：Deploying and Customizing InterSystems IRIS Containers](https://learning.intersystems.com/course/view.php?id=2170)
+- <a href="https://learning.intersystems.com/course/view.php?id=2170" target="_blank">体験環境付き演習（英語）：Deploying and Customizing InterSystems IRIS Containers</a>
 
-- [ビデオ（英語）：Automating the Configuration of InterSystems IRIS Instances](https://learning.intersystems.com/course/view.php?id=1624)
+- <a href="https://learning.intersystems.com/course/view.php?id=1624" target="_blank">ビデオ（英語）：Automating the Configuration of InterSystems IRIS Instances</a>
 
-    CPFマージ機能により、InterSystems IRIS®データ・プラットフォーム・インスタンスの最終的な状態を簡単かつ宣言的な方法で定義する事ができます。
+    CPF マージ機能により、InterSystems IRIS® data platform インスタンスの最終的な状態を簡単かつ宣言的な方法で定義する事ができます。
     
-    このビデオでは、CPFマージを利用したクラウドネイティブでGitOpsのようなコンフィギュレーション操作についてご説明します。
+    このビデオでは、CPF マージを利用したクラウドネイティブで GitOps のようなコンフィギュレーション操作についてご説明します。
 
-    ✅[サンプルコード](https://github.com/intersystems-community/configuration-merge-file-2020.4)：コンテナ化されたデプロイメント用の構成ファイルの使用方法の例がいくつか含まれています。
+    ✅ <a href="https://github.com/intersystems-community/configuration-merge-file-2020.4" target="_blank">サンプルコード</a>：コンテナ化されたデプロイメント用の構成ファイルの使用方法の例がいくつか含まれています。
 
     - Docker-compose ファイル
     - CPFマージファイル (CPF)
-    - 永続的な%SYS
+    - 永続的な %SYS
     - グローバル バッファ、ルーチン バッファ、Syslogのエラーログエントリ数、gmheap、locksiz（ロックテーブルサイズ）の自動構成
     - SQL用設定の自動構成
     - ネームスペースとデータベースの自動構成
@@ -128,22 +128,22 @@ Kubernetes は、コンテナのデプロイ、スケーリング、および管
 InterSystems Kubernetes Operator が InterSystems 固有の機能をどのように追加しているのかを確認し、クラスタをデプロイする演習に挑戦してください。
 
 
-- [ビデオ（英語）：Kubernetes Overview](https://learning.intersystems.com/enrol/index.php?id=1753)
+- <a href="https://learning.intersystems.com/enrol/index.php?id=1753" target="_blank">ビデオ（英語）：Kubernetes Overview</a>
     
     複数のホストにまたがるコンテナのデプロイをオーケストレーションするためのオープンソースプラットフォームである Kubernetes についてご紹介します。
     
-    InterSystems Kubernetes Operator により、InterSystems IRIS®データプラットフォームのユーザは、InterSystems IRISアプリケーションのデプロイメントにおいて Kubernetes メリットを享受することができます。
+    InterSystems Kubernetes Operator により、InterSystems IRIS® data platform のユーザは、InterSystems IRIS アプリケーションのデプロイメントにおいて Kubernetes メリットを享受することができます。
 
-- [ビデオ（英語）：Deploying and Upgrading InterSystems IRIS with the InterSystems Kubernetes Operator](https://learning.intersystems.com/course/view.php?name=Deploying%20%26%20Upgrading%20IRIS%20with%20Kubernetes%20Operator)
+- <a href="https://learning.intersystems.com/course/view.php?name=Deploying%20%26%20Upgrading%20IRIS%20with%20Kubernetes%20Operator" target="_blank">ビデオ（英語）：Deploying and Upgrading InterSystems IRIS with the InterSystems Kubernetes Operator</a>
 
-    InterSystems Kubernetes Operator を使用して Kubernetes クラスターを拡張する方法、および InterSystems IRIS® データプラットフォームインスタンスをデプロイ、アップグレード、拡張する方法をご覧ください。
+    InterSystems Kubernetes Operator を使用して Kubernetes クラスターを拡張する方法、および InterSystems IRIS® data platform インスタンスをデプロイ、アップグレード、拡張する方法をご覧ください。
 
-- [体験環境付き演習（英語）：Achieving High Availability with InterSystems IRIS and Kubernetes](https://learning.intersystems.com/enrol/index.php?id=1962)
+- <a href="https://learning.intersystems.com/enrol/index.php?id=1962" target="_blank">体験環境付き演習（英語）：Achieving High Availability with InterSystems IRIS and Kubernetes</a>
 
-    KubernetesをInterSystems IRIS®データプラットフォームと組み合わせて使用することで、デプロイメントで高可用性を実現する事ができます。
+    KubernetesをInterSystems IRIS® data platform と組み合わせて使用することで、デプロイメントで高可用性を実現する事ができます。
     
     この演習では、クラスタをデプロイし、災害シナリオをシミュレートし、Kubernetes がどのようにデータ損失とダウンタイムを防止するかを学びます。
 
-ご参考ビデオ：オープンソースだけで IRIS on Kubernetes を動かそう
+✅ ご参考ビデオ：オープンソースだけで IRIS on Kubernetes を動かそう
 
 {% include youtube-list.html id="zMhPuBFl6l4" list="PLzSN_5VbNaxC2mfu1cYvn9pfbJRs7xtkk&index=2" %}
