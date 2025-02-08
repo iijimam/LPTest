@@ -298,52 +298,7 @@ InterSystems Learning Services では、業界標準の認定試験を提供し�
 
 InterSystems 製品の Interoperability(相互運用性)フレームワークにより、インターフェイスエンジニアやソフトウェア開発者は、複数のシステムを接続し下流のアプリケーションにメッセージを迅速にルーティングすることができます。
 
-このパスでは、インテグレーションの基本を学び組み込みオプションとカスタムオプションを使用してデータを送信、受信、処理、変換する方法を確認します。
-
-- <a href="https://learning.intersystems.com/course/view.php?name=Interop%20QS" target="_blank">体験環境付き演習：Receiving and Routing Data in a Production</a>
-
-    ※ページ内のビデオは日本語字幕を表示できます。
-
-    <a href="http://github.com/intersystems/Samples-Integration-RedLights" target="_blank">演習内容サンプル</a>
-   
-- <a href="https://jp.community.intersystems.com/node/483036" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：動作の仕組みを知ろう</a>
-
-- <a href="https://jp.community.intersystems.com/node/483041" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：プロダクションとは</a>
-
-- レコードマップのご紹介
-
-    InterSystems 製品の Interoperability（相互運用性）メニューで使用できるファイル入出力処理に便利な機能をビデオで解説しています。
-
-    {% include youtube-list.html id="dnfPTffiSVo" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5&index=10" %} 
-<br>
-✅関連記事：<a href="https://jp.community.intersystems.com/node/494326" target="_blank">レコードマップで何ができるか？</a>
-
-- <a href="https://jp.community.intersystems.com/node/483171" target="_blank">【はじめてのInterSystems IRIS】Interoperability（相互運用性）：コンポーネントの作成（ビジネス・プロセス）</a>
-
-- ビジネス・ルールエディタの使い方（※新エディタに未対応）
-
-    {% include youtube-list.html id="4tG-txYZwtg" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %}
-<br>
->**英語のみとなりますが、以下のオンラインコースもあります。**
->- <a href="https://learning.intersystems.com/course/view.php?name=Integration%20Architecture" target="_blank">オンラインコース（英語）:Integration Architecture</a>
->
->    InterSystems IRIS® data platform、InterSystems HealthShare® の統合機能の基本的なアーキテクチャを学習します。
->    
->   InterSystems の統合ソリューションでは、プロダクションを作成します。このプロダクションには、外部システムと通信する要素とプロダクション内部で処理を実行する要素が含まれます。
->
->   このコースでは、プロダクションの各要素がどのように機能するかを確認します。これらのコンポーネントを通してデータがどのように流れ、システム間の相互運用が可能になるかを学びます。
->
->- <a href="https://learning.intersystems.com/enrol/index.php?id=1426" target="_blank">ビデオ（英語）:Using the Complex Record Mapper</a>
->    
->
->- <a href="https://learning.intersystems.com/enrol/index.php?id=2568" target="_blank">ビデオ（英語）Building BPL Business Processes (1h 30m)</a>
->
->- <a href="https://learning.intersystems.com/enrol/index.php?id=2529" target="_blank">オンラインコース（英語）:Data Transformations Basics</a>
->
->    グラフィカルな管理ポータル・インタフェースを使用して、データ変換を作成する方法を学びます。フィールドをマップする方法、フィールドを変更する関数を使用する方法、およびフィールドの値としてリテラルを使用する方法をご覧ください。最後に、変換をテストして実装する方法を学びます。
->
->    >メモ：変換データとしてHL7を使用しています。
-{: .block-tip}
+この内容を試すには、別のパス：<a href="BuildingBusinessIntegration.html" target="_blank">ビジネス・インテグレーションの構築</a> に進んでください。
 
 ### RESTfulサービスの設定
 

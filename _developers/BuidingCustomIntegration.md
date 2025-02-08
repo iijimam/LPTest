@@ -10,8 +10,10 @@ layout: post
 InterSystems ObjectScript で Interoperability（相互運用性機能）のカスタムコンポーネントを作成し、InterSystems IRIS® data platform 製品に追加する方法を学習します。
 
 このパスは、プロダクションで使用するカスタムビジネスサービス、プロセス、およびオペレーションを開発するソフトウェア開発者向けに設計されています。
-/
+
 また、InterSystems ObjectScript の使用経験があることを前提としています。必要に応じて、<a href="ObjectScript.html" target="_blank">InterSystems ObjectScript 入門</a> をご覧ください。
+
+※ 講師付きトレーニングコースで学習することもできます👉<a href="https://www.intersystems.com/jp/system-integration-tool/" target="_blank">システム統合機能の使い方</a>
 
 [1. <img src="./assets/icons/InteropC1.png" width="40%"/>](#1-)
 
