@@ -302,7 +302,7 @@ InterSystems 製品の Interoperability(相互運用性)フレームワークに
 
 - <a href="https://learning.intersystems.com/course/view.php?name=Interop%20QS" target="_blank">体験環境付き演習：Receiving and Routing Data in a Production</a>
 
-    ※ページ内のビデオは日本語切り替えができます。
+    ※ページ内のビデオは日本語字幕を表示できます。
 
     <a href="http://github.com/intersystems/Samples-Integration-RedLights" target="_blank">演習内容サンプル</a>
    
