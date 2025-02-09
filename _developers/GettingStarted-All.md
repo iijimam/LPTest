@@ -38,7 +38,6 @@ InterSystems IRIS® data platform の利用可能なツールや InterSystems IR
 
 ---
 
-
 ## 1. <img src="./assets/icons/1-IRIS.png" width="70%"/>
 
 InterSystems IRIS®データ・プラットフォームは、信頼性の高い統一プラットフォームで重要なアプリケーションを迅速に開発・デプロイすることを可能にします。
