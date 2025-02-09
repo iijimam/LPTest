@@ -64,4 +64,16 @@
    margin-bottom: 5px;
    font-size: 1.4rem;
    /*text-transform: uppercase; */
- }
+}
+
+.image-container {
+   display: flex;
+   justify-content: space-around; /* 子要素を均等に配置します */
+   align-items: center; /* 子要素を縦方向の中心に揃えます */
+   height: 100%;
+}
+
+.image-container img {
+   max-width: 95%; /* 画像の最大幅を設定します */
+   height: auto; /* 画像の縦横比を維持します */
+}
