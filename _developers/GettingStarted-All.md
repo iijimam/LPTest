@@ -228,7 +228,7 @@ InterSystems 製品の場合、データベース・ファイルにはデータ�
     {% include youtube-list.html id="ID6ImJTgJRk" list="PLzSN_5VbNaxBPaSSINLzv-CkDJy00bOSQ" %} 
     
 <br>
-- ObjectScriptの基本操作の学習については、**<a href="https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md" target="_blank">[ObjectScript クックブック：ObjectScriptの基本のき！</a>** をご参照ください。
+- ObjectScriptの基本操作の学習については、**<a href="https://github.com/Intersystems-jp/ObjectScriptCookBook/blob/master/Basic.md" target="_blank">ObjectScript クックブック：ObjectScriptの基本のき！</a>** をご参照ください。
 <br><br>
 - 以下動画から、クラス定義の作成からインスタンス生成、保存までの流れを確認できます。
 
