@@ -9,10 +9,9 @@ layout: post
 
 InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリジェンスをアプリケーションに組み込むことを可能にします。
 
-これにより、ユーザはデータに関する高度な質問をしたり回答したりすることができます。従来のBIシステムとは異なり、これはすべてライブ・トランザクション・データと密接に同期して行われます。
+これにより、ユーザはデータに関する高度な質問をしたり回答したりすることができます。従来の BI システムとは異なり、これはすべてライブ・トランザクション・データと密接に同期して行われます。
 
 このパスの自習用教材や講師付きトレーニングを組み合わせてモデルの作成方法を学習できます。
-
 
 ---
 [1. <img src="./assets/icons/BI-Model1.png" width="40%"/>](#1-)
@@ -33,12 +32,13 @@ InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリ
     InterSystems IRIS BI がどのように機能するのか、一般的に使用されるダッシュボードとユーザ・インタフェースについてご紹介します。
 
 {% include youtube-list.html id="xV9Aa31zxhI" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %} 
+<br>
 
 ## 2. <img src="./assets/icons/BI-Model2.png" width="70%"/>
 
 基本的な知識はおわかりいただけたと思いますので、講師付きトレーニングを受講して　InterSystems IRIS BI がどのように BI テクノロジーをほぼリアルタイムでアプリケーションに直接活用できるかを深く理解してください。
 
-- [InterSystems 組込み分析の使い方](https://www.intersystems.com/jp/intersystems-enbeded-analytics/)
+- <a href="https://www.intersystems.com/jp/intersystems-enbeded-analytics/" target="_blank">InterSystems 組込み分析の使い方</a>
 
 ## 3. <img src="./assets/icons/BI-Model3.png" width="70%"/>
 
@@ -46,11 +46,12 @@ InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリ
 
 - ビデオ：InterSystems IRIS Business Intelligence：アーキテクト画面の基本の使い
 
-{% include youtube-list.html id="VblJyJl2Xho" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %} 
+{% include youtube-list.html id="VblJyJl2Xho" list="PLzSN_5VbNaxCWpesN3ulh_EZ9sGkw09q5" %}
+<br> 
 
-- [ビデオ（英語）：Architect Advanced](https://learning.intersystems.com/course/view.php?name=irisbiarchitect)
+- <a href="https://learning.intersystems.com/course/view.php?name=irisbiarchitect" target="_blank">ビデオ（英語）：Architect Advanced</a>
 
-    ※このページの2つ目のビデオをご参照ください。
+    ※このページの 2 つ目のビデオをご参照ください。
     
     階層とコレクション・プロパティを使用した高度なキューブの作成手順を説明します。
     
