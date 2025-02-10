@@ -4,8 +4,9 @@ date: 2024-12-03
 permalink: BuildingBasicFHIRIntegration.html
 layout: post
 ---
+<!-- 
 >オリジナル：[Building Basic FHIR Integrations with InterSystems](
-https://learning.intersystems.com/course/view.php?id=1959)
+https://learning.intersystems.com/course/view.php?id=1959)-->
 
 このパスでは、InterSystems IRIS for Health™ または HealthShare® Health Connect を使用して HL7® FHIR® アプリケーションを構築するための基本を学習します。
 
