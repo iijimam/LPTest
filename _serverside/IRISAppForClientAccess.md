@@ -4,8 +4,8 @@ date: 2024-12-10
 permalink: IRISAppForClientAccess.html
 layout: post
 ---
-
->オリジナル：[Configuring InterSystems IRIS Applications for Client Access](https://learning.intersystems.com/course/view.php?id=1975)
+<!-- 
+>オリジナル：[Configuring InterSystems IRIS Applications for Client Access](https://learning.intersystems.com/course/view.php?id=1975)-->
 
 このパスでは、InterSystems IRIS® data platform を Web アプリケーションのバックエンドとして機能させるためのセットアップ方法をご紹介します。
 

@@ -4,8 +4,9 @@ date: 2024-12-10
 permalink: WritingPythonAppWithInterSystems.html
 layout: post
 ---
+<!-- 
 > オリジナル：[Writing Python Applications with InterSystems](https://learning.intersystems.com/course/view.php?id=1943)
-
+-->
 既存の Python コーディングスキルを活用して、InterSystems® アプリケーションを強化します。
 
 このパスでは、クライアントの Python アプリケーションから InterSystems サーバーに接続する方法、InterSystems ObjectScript コードに Python を組み込む方法（Embedded Python）、Python ライブラリの呼び出しに負荷のかかる処理が必要な場合に別のサーバーある InterSystems サーバーを呼び出す方法について学習します。

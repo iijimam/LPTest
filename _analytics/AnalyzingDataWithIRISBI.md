@@ -4,7 +4,7 @@ date: 2024-12-02
 permalink: AnalyzingDataWithIRISBI.html
 layout: post
 ---
-> オリジナル[Analyzing Data with InterSystems IRIS BI](https://learning.intersystems.com/course/view.php?id=1793)
+<!--  オリジナル[Analyzing Data with InterSystems IRIS BI](https://learning.intersystems.com/course/view.php?id=1793)-->
 
 InterSystems IRIS® Business Intelligence に含まれるアナライザーツールは、データモデルを最大限に活用し、様々な対象者向けに情報を表示する方法を提供します。
 

@@ -4,8 +4,9 @@ date: 2024-12-11
 permalink: JavaApptoISCProducts.html
 layout: post
 ---
+<!-- 
 > オリジナルラーニングページ：[Connecting Java Applications to InterSystems Products](https://learning.intersystems.com/course/view.php?name=Java%20Experience)
-
+-->
 JDBC、XEP、Hibernate、Native SDK を使用して、Javaアプリケーションを InterSystems IRIS® data platform やその他の InterSystems 製品やテクノロジに接続する方法を確認できます。
 
 他の言語からの接続については、以下の通りです。

@@ -4,8 +4,9 @@ date: 2024-12-06
 permalink: ObjectScript.html
 layout: post
 ---
-
+<!-- 
 >オリジナル：[Getting Started with InterSystems ObjectScript](https://learning.intersystems.com/course/view.php?id=289)
+-->
 
 InterSystems ObjectScript の基本的な構文と主要な要素について学習します。
 

@@ -4,7 +4,9 @@ date: 2024-12-12
 permalink: dotNetApptoISCProducts.html
 layout: post
 ---
+<!-- 
 > オリジナルラーニングページ：[Connecting .NET Applications to InterSystems Products](https://learning.intersystems.com/course/view.php?id=968)
+-->
 
 ADO.NET、XEP、Entity Framework、または Native API（Native SDK for .NET） を使用して、.NET アプリケーションを InterSystems IRIS® data platform やその他の InterSystems 製品およびテクノロジに接続する方法をご説明します。
 

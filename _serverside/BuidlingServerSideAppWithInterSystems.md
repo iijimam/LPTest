@@ -4,8 +4,9 @@ date: 2024-12-09
 permalink: BuidlingServerSideAppWithInterSystems.html
 layout: post
 ---
+<!-- 
 >オリジナル：[Building a Server-Side Application with InterSystems](https://learning.intersystems.com/course/view.php?id=2369)
-
+-->
 InterSystems 製品の組み込み言語である InterSystems ObjectScript を使用して、新しいクラスの作成、オブジェクトの操作、SQL クエリの実行について学習します。
 
 このパスを進めるために InterSystems 製品に対する前提知識は必要ありません。

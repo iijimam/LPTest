@@ -4,8 +4,8 @@ date: 2024-12-02
 permalink: FHIR-EnablingYourAppWithIRIS4H.html
 layout: post
 ---
-
-> オリジナル[FHIR-Enabling Your Applications with InterSystems IRIS for Health](https://learning.intersystems.com/course/view.php?id=2323)
+<!-- 
+> オリジナル[FHIR-Enabling Your Applications with InterSystems IRIS for Health](https://learning.intersystems.com/course/view.php?id=2323) -->
 
 InterSystems IRIS for Health™ を使用して、FHIR ファサード を作成することで、ヘルスケア・アプリケーションが HL7® FHIR® フォーマットでデータを送受信できるようなります。
 

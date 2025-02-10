@@ -4,8 +4,8 @@ date: 2024-12-01
 permalink: DeployingIRISContainerAndCloud.html
 layout: post
 ---
-
->オリジナル：[Deploying InterSystems IRIS in Containers and the Cloud](https://learning.intersystems.com/enrol/index.php?id=2141)
+<!-- 
+>オリジナル：[Deploying InterSystems IRIS in Containers and the Cloud](https://learning.intersystems.com/enrol/index.php?id=2141)-->
 
 スケーラブルなデプロイメント戦略を使用して、InterSystems IRIS® data platform の実装に信頼性を追加できます。
 

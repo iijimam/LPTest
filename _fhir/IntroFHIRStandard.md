@@ -4,8 +4,9 @@ date: 2024-12-01
 permalink: IntroFHIRStandard.html
 layout: post
 ---
-
+<!-- 
 > オリジナルページ：[Introduction to the FHIR Standard](https://learning.intersystems.com/course/view.php?id=2401)
+-->
 
 HL7® FHIR® を世界をリードするヘルスケアデータ標準にしている多くの特徴と機能について学びます。
 

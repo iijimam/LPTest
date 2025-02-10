@@ -4,9 +4,9 @@ date: 2024-12-01
 permalink: GettingStartedWithGenerativeAI.html
 layout: post
 ---
-
+<!-- 
 >オリジナル：[Getting Started with Generative AI](https://learning.intersystems.com/course/view.php?id=2460)
-
+-->
 生成 AI と他の人工知能との違いについて学習します。
 
 生成 AI と対話するためのベストプラクティスを確認し、安全かつ責任を持って使用する方法を学習します。

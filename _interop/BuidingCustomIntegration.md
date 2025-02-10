@@ -4,9 +4,9 @@ date: 2024-12-08
 permalink: BuidingCustomIntegration.html
 layout: post
 ---
-
+<!-- 
 >オリジナル：[Building Custom Integrations](https://learning.intersystems.com/course/view.php?id=397)
-
+-->
 InterSystems ObjectScript で Interoperability（相互運用性機能）のカスタムコンポーネントを作成し、InterSystems IRIS® data platform 製品に追加する方法を学習します。
 
 このパスは、プロダクションで使用するカスタムビジネスサービス、プロセス、およびオペレーションを開発するソフトウェア開発者向けに設計されています。

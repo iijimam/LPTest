@@ -4,9 +4,9 @@ date: 2024-12-02
 permalink: DevelopingGenAIApp.html
 layout: post
 ---
-
+<!-- 
 >オリジナル：[Getting Started with Generative AI](https://learning.intersystems.com/course/view.php?id=2462)
-
+-->
 Retrieval-Argumented Generation（RAG）をマスターすることで、<a href="GettingStartedWithGenerativeAI.html" target="_blank">生成 AI の基礎</a>を構築し、精度を向上させたインテリジェントなアプリケーションを作成できるようになります。
 
 このパスでは、ベクトルの Embedding などの概念について学習し、実用的な RAG モデルの実装のためにPythonライブラリを活用します。

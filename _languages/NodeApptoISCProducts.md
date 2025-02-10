@@ -4,8 +4,9 @@ date: 2024-12-13
 permalink: NodeApptoISCProducts.html
 layout: post
 ---
+<!-- 
 > オリジナル：　https://learning.intersystems.com/course/view.php?id=1108
-
+-->
 ODBC または InterSystems IRIS® データプラットフォームのNative API を使用して、Node.js アプリケーションを InterSystems® 製品およびテクノロジーに接続できます。
 
 [1. <img src="./assets/icons/1.png" width="40%"/>](#1-)

@@ -5,7 +5,7 @@ permalink: BuildingDataModelsIRISBI.html
 layout: post
 ---
 
->オリジナル：[Build Data Models Using InterSystems IRIS Business Intelligence](https://learning.intersystems.com/enrol/index.php?id=1796)
+<!-- >オリジナル：[Build Data Models Using InterSystems IRIS Business Intelligence](https://learning.intersystems.com/enrol/index.php?id=1796) -->
 
 InterSystems IRIS® Business Intelligence (BI) は、ビジネス・インテリジェンスをアプリケーションに組み込むことを可能にします。
 
