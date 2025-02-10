@@ -54,8 +54,12 @@
                         <!-- 追加-->
                         {% if collection.label=="posts" %}
                             <li class="collection-header">🚶Getting Started🚶</li>
-                        {% elsif collection.label=="developers" %}
-                            <li class="collection-header">開発</li>
+                        {% elsif collection.label=="serverside" %}
+                            <li class="collection-header">サーバー側開発</li>
+                        {% elsif collection.label=="languages" %}
+                            <li class="collection-header">外部言語からのアクセス</li>
+                        {% elsif collection.label=="interop" %}
+                            <li class="collection-header">Interoperability</li>
                         {% elsif collection.label=="genai" %}
                             <li class="collection-header">生成AI</li>
                         {% elsif collection.label=="fhir" %}

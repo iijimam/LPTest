@@ -1,6 +1,6 @@
 ---
 title: Interoperability：カスタムコンポーネントの作成
-date: 2024-12-07
+date: 2024-12-08
 permalink: BuidingCustomIntegration.html
 layout: post
 ---

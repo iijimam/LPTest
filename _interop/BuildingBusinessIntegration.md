@@ -1,6 +1,6 @@
 ---
 title: ビジネス・インテグレーションの構築
-date: 2024-12-08
+date: 2024-12-07
 permalink: BuildingBusinessIntegration.html
 layout: post
 ---

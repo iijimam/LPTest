@@ -16,9 +16,17 @@ collections:
     output: true
     label: Getting Started!
     permalink: /:collection/:path/
-  developers:
+  serverside:
     output: true
-    label: 開発者向け
+    label: serverside
+    permalink: /:collection/:path/
+  interop:
+    output: true
+    label: Interoperability
+    permalink: /:collection/:path/
+  languages:
+    output: true
+    label: languages
     permalink: /:collection/:path/
   fhir:
     output: true
@@ -44,7 +52,9 @@ collections:
 
 ordered_collections:
   - posts
-  - developers
+  - serverside
+  - languages
+  - interop
   - fhir
   - genai
   - analytics

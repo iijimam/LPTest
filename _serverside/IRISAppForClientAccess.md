@@ -1,6 +1,6 @@
 ---
 title: IRISを利用したWebアプリケーションの構成
-date: 2024-12-09
+date: 2024-12-10
 permalink: IRISAppForClientAccess.html
 layout: post
 ---
