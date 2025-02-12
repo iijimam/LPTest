@@ -23,12 +23,17 @@
 }
 .details-summary {
    font-weight: bold;
-   /*color:rgb(147, 193, 234);*/
+   /*color:rgb(7, 27, 240);*/
    max-height: 38px;
    margin-top: 10px;
    margin-bottom: 5px;
    font-size: 1.6rem;
    /*text-transform: uppercase; */
+   text-decoration:underline;
+   text-decoration-color:darkblue;
+}
+.details-summary:hover {
+   color : #ff7043;
 }
 
 .details-contents {
